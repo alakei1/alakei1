@@ -2,7 +2,7 @@
 <!-- README.md -->
 <!--цветовая палитра палитра #DB8C7B #EBD2CD #3B887B #125446 #112221 -->
 <p align="center">
-  <img src="assets/waves.svg" width="100%" alt="Waves" />
+  <img src="assets/waves.svg" width="100%" alt="Waves" style="display: block; width: 100%;" />
 </p>
 
 <p align="center">
