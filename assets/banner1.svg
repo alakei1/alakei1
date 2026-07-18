@@ -1,0 +1,16 @@
+<svg width="780" height="120" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Arial:wght@700&amp;display=swap');
+    </style>
+  </defs>
+  
+  <!-- Фон с круглыми углами (rx=20) -->
+  <rect width="780" height="120" rx="20" fill="#EBD2CD"/>
+  
+  <!-- Основной текст -->
+  <text x="390" y="55" font-family="Arial" font-weight="700" font-size="38" fill="#125446" text-anchor="middle" dominant-baseline="middle">Alexey Lugachev</text>
+  
+  <!-- Подзаголовок -->
+  <text x="390" y="95" font-family="Arial" font-size="20" fill="#125446" text-anchor="middle" dominant-baseline="middle">Backend | ML Engineer | DevOps</text>
+</svg>
