@@ -42,3 +42,7 @@
   <img src="https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white&labelColor=EBD2CD&color=F46800" />
   <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white&labelColor=EBD2CD&color=013243" />
 </p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/rullerzhou-afk/clawd-on-desk/main/assets/svg/calico-idle.svg" width="120" alt="Calico Pet" />
+  <img src="https://raw.githubusercontent.com/rullerzhou-afk/clawd-on-desk/main/assets/svg/calico-thinking.svg" width="120" alt="Calico Thinking" />
+</p>
