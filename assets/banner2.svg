@@ -1,5 +1,5 @@
 <svg width="780" height="70" xmlns="http://www.w3.org/2000/svg">
-  <!-- Фон с круглыми углами -->
+  <!-- Фон с круглыми углами (rx=20) -->
   <rect width="780" height="70" rx="20" fill="#EBD2CD"/>
   
   <style>
@@ -13,30 +13,76 @@
       dominant-baseline: middle;
     }
     
-    @keyframes typing {
-      from { width: 0; }
-      to { width: 280px; }
+    /* Анимация появления букв */
+    @keyframes fadeIn {
+      0% { opacity: 0; }
+      100% { opacity: 1; }
     }
     
+    /* Мигание курсора */
     @keyframes blink {
       0%, 100% { opacity: 1; }
       50% { opacity: 0; }
     }
     
-    .typing-text {
-      animation: typing 3s steps(22) 1s forwards;
-      overflow: visible;
-      white-space: nowrap;
+    .cursor {
+      animation: blink 0.8s step-end infinite;
     }
     
-    .cursor {
-      animation: blink 1s step-end infinite;
+    /* Каждая буква появляется с задержкой */
+    .letter {
+      animation: fadeIn 0.15s ease forwards;
+      opacity: 0;
     }
+    
+    .letter:nth-child(1) { animation-delay: 0.0s; }
+    .letter:nth-child(2) { animation-delay: 0.1s; }
+    .letter:nth-child(3) { animation-delay: 0.2s; }
+    .letter:nth-child(4) { animation-delay: 0.3s; }
+    .letter:nth-child(5) { animation-delay: 0.4s; }
+    .letter:nth-child(6) { animation-delay: 0.5s; }
+    .letter:nth-child(7) { animation-delay: 0.6s; }
+    .letter:nth-child(8) { animation-delay: 0.7s; }
+    .letter:nth-child(9) { animation-delay: 0.8s; }
+    .letter:nth-child(10) { animation-delay: 0.9s; }
+    .letter:nth-child(11) { animation-delay: 1.0s; }
+    .letter:nth-child(12) { animation-delay: 1.1s; }
+    .letter:nth-child(13) { animation-delay: 1.2s; }
+    .letter:nth-child(14) { animation-delay: 1.3s; }
+    .letter:nth-child(15) { animation-delay: 1.4s; }
+    .letter:nth-child(16) { animation-delay: 1.5s; }
+    .letter:nth-child(17) { animation-delay: 1.6s; }
+    .letter:nth-child(18) { animation-delay: 1.7s; }
+    .letter:nth-child(19) { animation-delay: 1.8s; }
+    .letter:nth-child(20) { animation-delay: 1.9s; }
+    .letter:nth-child(21) { animation-delay: 2.0s; }
+    .letter:nth-child(22) { animation-delay: 2.1s; }
   </style>
   
-  <!-- Текст с эффектом печати -->
+  <!-- Текст с эффектом печати (каждая буква отдельно) -->
   <text x="390" y="38" class="text">
-    <tspan class="typing-text">Viam supervadet vadens</tspan>
+    <tspan class="letter">V</tspan>
+    <tspan class="letter">i</tspan>
+    <tspan class="letter">a</tspan>
+    <tspan class="letter">m</tspan>
+    <tspan class="letter"> </tspan>
+    <tspan class="letter">s</tspan>
+    <tspan class="letter">u</tspan>
+    <tspan class="letter">p</tspan>
+    <tspan class="letter">e</tspan>
+    <tspan class="letter">r</tspan>
+    <tspan class="letter">v</tspan>
+    <tspan class="letter">a</tspan>
+    <tspan class="letter">d</tspan>
+    <tspan class="letter">e</tspan>
+    <tspan class="letter">t</tspan>
+    <tspan class="letter"> </tspan>
+    <tspan class="letter">v</tspan>
+    <tspan class="letter">a</tspan>
+    <tspan class="letter">d</tspan>
+    <tspan class="letter">e</tspan>
+    <tspan class="letter">n</tspan>
+    <tspan class="letter">s</tspan>
   </text>
   
   <!-- Мигающий курсор -->
