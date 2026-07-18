@@ -63,36 +63,5 @@
 </p>
 
 
-<!-- Баннер-взрыв -->
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=slice&color=gradient&customColorList=0,2,4,5,9,12,14,20,21,22,24,25,27,28,29,30,31&height=200&section=header&text=🚀%20WOW!&fontSize=60&fontColor=ffffff&animation=fadeIn" width="100%" />
-</p>
-
-<!-- Анимированный неоновый текст -->
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=900&size=38&pause=300&color=00FF41&center=true&vCenter=true&width=900&height=80&lines=ALEXEY+LUGACHEV;BACKEND+ENGINEER;ML+ENGINEER;DEVOPS;BUILDING+THE+FUTURE" alt="Neon" />
-</p>
-
-<!-- Статистика с тенью -->
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=alakei1&show_icons=true&theme=dark&bg_color=0A0A0A&title_color=00FF41&text_color=00FF41&icon_color=00FF41&hide_border=true&border_radius=20&shadow=0,0,40px" width="45%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=alakei1&layout=compact&theme=dark&bg_color=0A0A0A&title_color=00FF41&text_color=00FF41&hide_border=true&border_radius=20" width="42%" />
-</p>
-
-<!-- Анимированный терминал -->
-<pre align="center" style="background: #0A0A0A; color: #00FF41; padding: 25px; border-radius: 20px; border: 2px solid #00FF41; box-shadow: 0 0 60px rgba(0,255,65,0.15); font-family: 'Courier New', monospace;">
-╔══════════════════════════════════════════════════════════════════════╗
-║  🔥 WHO IS THIS GUY?                                               ║
-║  ═══════════════════════════════════════════════════════════════════ ║
-║  💻  Backend Developer          🤖  ML Engineer                    ║
-║  🚀  DevOps Practitioner        ⚡  Scalable Systems               ║
-║  ═══════════════════════════════════════════════════════════════════ ║
-║  🛠  Python  |  FastAPI  |  Docker  |  Kubernetes  |  PostgreSQL  ║
-║  ═══════════════════════════════════════════════════════════════════ ║
-║  🌟  Currently: Building pet-projects & learning Go                ║
-║  🎯  Mission: Create scalable, high-load systems                   ║
-╚══════════════════════════════════════════════════════════════════════╝
-</pre>
-
 
 
