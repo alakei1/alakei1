@@ -1,45 +1,39 @@
-<svg width="100%" height="120" xmlns="http://www.w3.org/2000/svg">
+<svg width="100%" height="150" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 150" preserveAspectRatio="none">
   <defs>
-    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#EBD2CD" />
-      <stop offset="50%" style="stop-color:#DB8C7B" />
-      <stop offset="100%" style="stop-color:#3B887B" />
-    </linearGradient>
-    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#DB8C7B" />
-      <stop offset="100%" style="stop-color:#125446" />
+    <!-- Градиент для нижней волны (можно менять) -->
+    <linearGradient id="wave3Grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#125446;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#112221;stop-opacity:0.9" />
     </linearGradient>
   </defs>
 
-  <rect width="100%" height="120" fill="url(#grad)"/>
-
-  <!-- Волна 1 -->
-  <path d="M0,60 Q100,30 200,60 T400,60 T600,60 T800,60 L800,120 L0,120 Z" 
-        fill="#DB8C7B" opacity="0.6">
+  <!-- Волна 1 (самая верхняя, светлая) -->
+  <path d="M0,40 Q100,10 200,40 T400,40 T600,40 T800,40 L800,150 L0,150 Z" 
+        fill="#DB8C7B" opacity="0.25">
     <animate attributeName="d" 
-             values="M0,60 Q100,30 200,60 T400,60 T600,60 T800,60 L800,120 L0,120 Z;
-                     M0,60 Q100,90 200,60 T400,60 T600,60 T800,60 L800,120 L0,120 Z;
-                     M0,60 Q100,30 200,60 T400,60 T600,60 T800,60 L800,120 L0,120 Z" 
-             dur="4s" repeatCount="indefinite"/>
-  </path>
-
-  <!-- Волна 2 -->
-  <path d="M0,80 Q150,50 300,80 T600,80 T900,80 L900,120 L0,120 Z" 
-        fill="#3B887B" opacity="0.5">
-    <animate attributeName="d" 
-             values="M0,80 Q150,50 300,80 T600,80 T900,80 L900,120 L0,120 Z;
-                     M0,80 Q150,110 300,80 T600,80 T900,80 L900,120 L0,120 Z;
-                     M0,80 Q150,50 300,80 T600,80 T900,80 L900,120 L0,120 Z" 
+             values="M0,40 Q100,10 200,40 T400,40 T600,40 T800,40 L800,150 L0,150 Z;
+                     M0,40 Q100,70 200,40 T400,40 T600,40 T800,40 L800,150 L0,150 Z;
+                     M0,40 Q100,10 200,40 T400,40 T600,40 T800,40 L800,150 L0,150 Z" 
              dur="5s" repeatCount="indefinite"/>
   </path>
 
-  <!-- Волна 3 -->
-  <path d="M0,100 Q200,70 400,100 T800,100 L800,120 L0,120 Z" 
-        fill="#125446" opacity="0.4">
+  <!-- Волна 2 (средняя, бирюзовая) -->
+  <path d="M0,70 Q150,40 300,70 T600,70 T900,70 L900,150 L0,150 Z" 
+        fill="#3B887B" opacity="0.4">
     <animate attributeName="d" 
-             values="M0,100 Q200,70 400,100 T800,100 L800,120 L0,120 Z;
-                     M0,100 Q200,130 400,100 T800,100 L800,120 L0,120 Z;
-                     M0,100 Q200,70 400,100 T800,100 L800,120 L0,120 Z" 
+             values="M0,70 Q150,40 300,70 T600,70 T900,70 L900,150 L0,150 Z;
+                     M0,70 Q150,100 300,70 T600,70 T900,70 L900,150 L0,150 Z;
+                     M0,70 Q150,40 300,70 T600,70 T900,70 L900,150 L0,150 Z" 
              dur="6s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- Волна 3 (нижняя, тёмная, самая мощная) -->
+  <path d="M0,100 Q200,70 400,100 T800,100 L800,150 L0,150 Z" 
+        fill="url(#wave3Grad)" opacity="0.9">
+    <animate attributeName="d" 
+             values="M0,100 Q200,70 400,100 T800,100 L800,150 L0,150 Z;
+                     M0,100 Q200,130 400,100 T800,100 L800,150 L0,150 Z;
+                     M0,100 Q200,70 400,100 T800,100 L800,150 L0,150 Z" 
+             dur="7s" repeatCount="indefinite"/>
   </path>
 </svg>
