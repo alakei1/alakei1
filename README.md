@@ -49,14 +49,7 @@
 </p>
 
 
-<!-- Вариант 1: Тёмный низ (градиент) -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=125446,112221&height=100&section=footer" width="100%" />
 
-<!-- Вариант 2: Бирюзовый акцент -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=3B887B,125446&height=100&section=footer" width="100%" />
-
-<!-- Вариант 3: Полная твоя палитра (переход) -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=EBD2CD,DB8C7B,3B887B,125446&height=100&section=footer" width="100%" />
 
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=alakei1&bg_color=EBD2CD&color=125446&line=3B887B&point=DB8C7B&hide_border=true&radius=20" width="90%" />
