@@ -1,10 +1,10 @@
 <p align="center">
   <span style="
     background-color: #EBD2CD;
-    color: #125446;
+    color: #125446 !important;
     font-family: 'Cera Stencil PRO Trial', Impact, sans-serif;
     font-weight: 700;
-    font-size: 60px;
+    font-size: 42px;
     padding: 12px 32px;
     border-radius: 8px;
     display: inline-block;
