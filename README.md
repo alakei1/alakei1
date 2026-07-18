@@ -1,9 +1,7 @@
 
 <!-- README.md -->
 <!--цветовая палитра палитра #DB8C7B #EBD2CD #3B887B #125446 #112221 -->
-<p align="center">
-  <img src="https://ishan-rest.vercel.app/svg/banner/hacker/alakei1" alt="Hacker Banner" />
-</p>
+
 <p align="center">
   <img src="assets/banner1.svg" width="780" alt="Alexey Lugachev" />
 </p>
