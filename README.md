@@ -20,7 +20,11 @@
   </a>
 </p>
 
-<h3 align="center" style="color: #125446; font-weight: 700;">🛠 Tech Stack</h3>
+<h3 align="center">
+  <span style="background: linear-gradient(135deg, #125446, #3B887B); -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-weight: 700; font-size: 28px;">
+    🛠 Tech Stack
+  </span>
+</h3>
 
 
 <p align="center">
