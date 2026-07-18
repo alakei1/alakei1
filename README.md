@@ -1,15 +1,6 @@
 <!-- README.md -->
-<!-- README.md -->
 <p align="center">
-  <table border="0" cellpadding="0" cellspacing="0" align="center">
-    <tr>
-      <td align="center" style="line-height: 0;">
-        <img src="https://shields.io" width="780" height="190" />
-        <br />
-        <img src="https://demolab.com" alt="Alexey Lugachev" style="margin-top: -190px; position: relative; display: block;" />
-      </td>
-    </tr>
-  </table>
+  <img src="https://vercel.app" alt="Banner" />
 </p>
 
 <p align="center">
@@ -21,8 +12,6 @@
     <img src="https://shields.io" alt="Email" />
   </a>
 </p>
-
-
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Arial&weight=700&size=38&pause=1000&color=125446&center=true&vCenter=true&width=780&height=120&background=EBD2CD&lines=Alexey+Lugachev;Backend+%7C+ML+Engineer+%7C+DevOps;Python+%7C+FastAPI+%7C+Docker;Building+scalable+systems" alt="Alexey Lugachev" />
 </p>
