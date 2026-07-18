@@ -3,12 +3,10 @@
 </p>
 <p align="center">
   <a href="https://t.me/твой_username">
-    <img src="https://img.shields.io/badge/Telegram-125446?style=for-the-badge&logo=telegram&logoColor=white&labelColor=EBD2CD&color=125446" alt="Telegram" />
+    <img src="https://img.shields.io/badge/Telegram-3B887B?style=for-the-badge&logo=telegram&logoColor=white&labelColor=EBD2CD&color=3B887B" alt="Telegram" />
   </a>
+  &nbsp;&nbsp;
   <a href="mailto:твой@email.com">
-    <img src="https://img.shields.io/badge/Email-125446?style=for-the-badge&logo=gmail&logoColor=white&labelColor=EBD2CD&color=125446" alt="Email" />
-  </a>
-  <a href="https://www.linkedin.com/in/твой-username">
-    <img src="https://img.shields.io/badge/LinkedIn-125446?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=EBD2CD&color=125446" alt="LinkedIn" />
+    <img src="https://img.shields.io/badge/Email-DB8C7B?style=for-the-badge&logo=gmail&logoColor=white&labelColor=EBD2CD&color=DB8C7B" alt="Email" />
   </a>
 </p>
