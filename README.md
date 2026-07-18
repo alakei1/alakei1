@@ -1,7 +1,9 @@
 
 <!-- README.md -->
 <!--цветовая палитра палитра #DB8C7B #EBD2CD #3B887B #125446 #112221 -->
-
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&pause=500&color=3B887B&center=true&vCenter=true&width=600&height=40&lines=🚀+Сейчас+работаю+над:+Pet-проектами;🧠+Изучаю:+Kubernetes+%26+Go;⚡+Люблю:+Решать+сложные+задачи" alt="Status" />
+</p>
 <p align="center">
   <img src="assets/banner1.svg" width="780" alt="Alexey Lugachev" />
 </p>
