@@ -61,6 +61,9 @@
   </picture>
 </p>
 
+<p align="center">
+  <img src="assets/waves.svg" width="800" alt="Waves" style="display: block; max-width: 100%;" />
+</p>
 
 
 
