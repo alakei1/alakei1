@@ -1,4 +1,6 @@
 <!-- README.md -->
+<!--цветовая палитра палитра #DB8C7B #EBD2CD #3B887B #125446 #112221 -->
+
 <p align="center">
   <img src="assets/banner1.svg" width="780" alt="Alexey Lugachev" />
 </p>
