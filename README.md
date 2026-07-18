@@ -1,7 +1,15 @@
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Arial&weight=700&size=42&pause=1000&color=125446&center=true&vCenter=true&width=780&height=80&background=EBD2CD&lines=Lugachev" alt="Фамилия" />
-</p>
-
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Arial&weight=500&size=22&pause=1200&color=125446&center=true&vCenter=true&width=780&height=50&background=EBD2CD&lines=Backend+%7C+ML+Engineer+%7C+DevOps;Python+%7C+FastAPI+%7C+Docker+%7C+Kubernetes;Building+scalable+%26+reliable+systems" alt="Навыки" />
-</p>
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="140" viewBox="0 0 780 140">
+  <rect width="780" height="140" rx="12" fill="#EBD2CD"/>
+  
+  <text x="390" y="45" font-family="Arial" font-weight="700" font-size="36" fill="#125446" text-anchor="middle">
+    Алексей Лугачев
+  </text>
+  
+  <text x="390" y="85" font-family="Arial" font-weight="500" font-size="18" fill="#125446" text-anchor="middle">
+    Backend | ML Engineer | DevOps
+  </text>
+  
+  <text x="390" y="112" font-family="Arial" font-weight="400" font-size="16" fill="#125446" text-anchor="middle">
+    Python • FastAPI • Docker • Kubernetes • Building scalable systems
+  </text>
+</svg>
