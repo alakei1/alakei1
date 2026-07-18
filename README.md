@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Arial&weight=700&size=42&duration=2000&pause=500&color=125446&center=true&vCenter=true&width=780&height=80&background=EBD2CD&lines=Alexey+Lugachev" alt="name" />
+  <img src="https://readme-typing-svg.demolab.com?font=Arial&weight=700&size=42&pause=1000&color=125446&center=true&vCenter=true&width=780&height=80&background=EBD2CD&lines=Alexey+Lugachev" alt="Alexey Lugachev" />
 </p>
 
 <p align="center">
