@@ -19,6 +19,11 @@
 </p>
 <h3 align="center">🛠 Tech Stack</h3>
 
+p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=alakei1&layout=compact&theme=default&bg_color=EBD2CD&title_color=125446&text_color=125446&hide_border=true&border_radius=15" width="45%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=alakei1&show_icons=true&theme=default&bg_color=EBD2CD&title_color=125446&text_color=125446&icon_color=3B887B&hide_border=true&border_radius=15" width="45%" />
+</p>
+
 <p align="center">
   <!-- Ряд 1: Языки + Фреймворки -->
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white&labelColor=EBD2CD&color=3776AB" />
