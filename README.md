@@ -22,35 +22,32 @@
 <h3 align="center">🛠 Tech Stack</h3>
 
 
-
 <p align="center">
   <!-- Ряд 1: Языки + Фреймворки -->
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white&labelColor=EBD2CD&color=3776AB" />
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white&labelColor=EBD2CD&color=009688" />
-  <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white&labelColor=EBD2CD&color=092E20" />
-  <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white&labelColor=EBD2CD&color=000000" />
+  <img src="https://img.shields.io/badge/Python-125446?style=for-the-badge&logo=python&logoColor=white&labelColor=EBD2CD&color=125446" />
+  <img src="https://img.shields.io/badge/FastAPI-3B887B?style=for-the-badge&logo=fastapi&logoColor=white&labelColor=EBD2CD&color=3B887B" />
+  <img src="https://img.shields.io/badge/Django-112221?style=for-the-badge&logo=django&logoColor=white&labelColor=EBD2CD&color=112221" />
+  <img src="https://img.shields.io/badge/Flask-125446?style=for-the-badge&logo=flask&logoColor=white&labelColor=EBD2CD&color=125446" />
   <br/>
   
   <!-- Ряд 2: Базы данных + DevOps -->
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white&labelColor=EBD2CD&color=4169E1" />
-  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white&labelColor=EBD2CD&color=47A248" />
-  <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white&labelColor=EBD2CD&color=DC382D" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white&labelColor=EBD2CD&color=2496ED" />
-  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white&labelColor=EBD2CD&color=326CE5" />
+  <img src="https://img.shields.io/badge/PostgreSQL-3B887B?style=for-the-badge&logo=postgresql&logoColor=white&labelColor=EBD2CD&color=3B887B" />
+  <img src="https://img.shields.io/badge/MongoDB-125446?style=for-the-badge&logo=mongodb&logoColor=white&labelColor=EBD2CD&color=125446" />
+  <img src="https://img.shields.io/badge/Redis-DB8C7B?style=for-the-badge&logo=redis&logoColor=white&labelColor=EBD2CD&color=DB8C7B" />
+  <img src="https://img.shields.io/badge/Docker-125446?style=for-the-badge&logo=docker&logoColor=white&labelColor=EBD2CD&color=125446" />
+  <img src="https://img.shields.io/badge/Kubernetes-3B887B?style=for-the-badge&logo=kubernetes&logoColor=white&labelColor=EBD2CD&color=3B887B" />
   <br/>
   
   <!-- Ряд 3: Очереди + Мониторинг + ML -->
-  <img src="https://img.shields.io/badge/RabbitMQ-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white&labelColor=EBD2CD&color=FF6600" />
-  <img src="https://img.shields.io/badge/Celery-37814A?style=for-the-badge&logo=celery&logoColor=white&labelColor=EBD2CD&color=37814A" />
-  <img src="https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white&labelColor=EBD2CD&color=E6522C" />
-  <img src="https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white&labelColor=EBD2CD&color=F46800" />
-  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white&labelColor=EBD2CD&color=013243" />
+  <img src="https://img.shields.io/badge/RabbitMQ-DB8C7B?style=for-the-badge&logo=rabbitmq&logoColor=white&labelColor=EBD2CD&color=DB8C7B" />
+  <img src="https://img.shields.io/badge/Celery-3B887B?style=for-the-badge&logo=celery&logoColor=white&labelColor=EBD2CD&color=3B887B" />
+  <img src="https://img.shields.io/badge/Prometheus-125446?style=for-the-badge&logo=prometheus&logoColor=white&labelColor=EBD2CD&color=125446" />
+  <img src="https://img.shields.io/badge/Grafana-DB8C7B?style=for-the-badge&logo=grafana&logoColor=white&labelColor=EBD2CD&color=DB8C7B" />
+  <img src="https://img.shields.io/badge/NumPy-112221?style=for-the-badge&logo=numpy&logoColor=white&labelColor=EBD2CD&color=112221" />
 </p>
 
-<!-- Счётчик посетителей -->
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=alakei1&style=flat-square&color=3B887B&label=👀+Visitors&labelColor=EBD2CD" />
-</p>
+
+
 
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=alakei1&bg_color=EBD2CD&color=125446&line=3B887B&point=DB8C7B&hide_border=true&radius=20" width="90%" />
