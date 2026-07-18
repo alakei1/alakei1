@@ -47,6 +47,11 @@
   <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white&labelColor=EBD2CD&color=013243" />
 </p>
 
+<!-- Счётчик посетителей -->
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=alakei1&style=flat-square&color=3B887B&label=👀+Visitors&labelColor=EBD2CD" />
+</p>
+
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=alakei1&bg_color=EBD2CD&color=125446&line=3B887B&point=DB8C7B&hide_border=true&radius=20" width="90%" />
 </p>
