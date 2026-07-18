@@ -1,9 +1,7 @@
 
 <!-- README.md -->
 <!--цветовая палитра палитра #DB8C7B #EBD2CD #3B887B #125446 #112221 -->
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&pause=500&color=3B887B&center=true&vCenter=true&width=600&height=40&lines=🚀+Сейчас+работаю+над:+Pet-проектами;🧠+Изучаю:+Kubernetes+%26+Go;⚡+Люблю:+Решать+сложные+задачи" alt="Status" />
-</p>
+
 <p align="center">
   <img src="assets/banner1.svg" width="780" alt="Alexey Lugachev" />
 </p>
@@ -51,7 +49,9 @@
 </p>
 
 
-
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=EBD2CD,DB8C7B&height=100&section=footer" width="100%" />
+</p>
 
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=alakei1&bg_color=EBD2CD&color=125446&line=3B887B&point=DB8C7B&hide_border=true&radius=20" width="90%" />
