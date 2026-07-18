@@ -2,6 +2,14 @@
 <!-- README.md -->
 <!--цветовая палитра палитра #DB8C7B #EBD2CD #3B887B #125446 #112221 -->
 
+<!-- ФОН ДЛЯ ВСЕГО README -->
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' style='stop-color:%23125446;stop-opacity:1' /%3E%3Cstop offset='100%25' style='stop-color:%23112221;stop-opacity:1' /%3E%3C/linearGradient%3E%3Cpattern id='p' width='40' height='40' patternUnits='userSpaceOnUse'%3E%3Ccircle cx='20' cy='20' r='1' fill='%23EBD2CD' opacity='0.05'/%3E%3C/pattern%3E%3C/defs%3E%3Crect width='100%25' height='100%25' fill='url(%23g)'/%3E%3Crect width='100%25' height='100%25' fill='url(%23p)'/%3E%3C/svg%3E">
+  <source media="(prefers-color-scheme: light)" srcset="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' style='stop-color:%23EBD2CD;stop-opacity:1' /%3E%3Cstop offset='100%25' style='stop-color:%23DB8C7B;stop-opacity:0.3' /%3E%3C/linearGradient%3E%3Cpattern id='p' width='40' height='40' patternUnits='userSpaceOnUse'%3E%3Ccircle cx='20' cy='20' r='1' fill='%23125446' opacity='0.05'/%3E%3C/pattern%3E%3C/defs%3E%3Crect width='100%25' height='100%25' fill='url(%23g)'/%3E%3Crect width='100%25' height='100%25' fill='url(%23p)'/%3E%3C/svg%3E">
+  <img alt="Background" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' style='stop-color:%23EBD2CD;stop-opacity:1' /%3E%3Cstop offset='100%25' style='stop-color:%23DB8C7B;stop-opacity:0.3' /%3E%3C/linearGradient%3E%3Cpattern id='p' width='40' height='40' patternUnits='userSpaceOnUse'%3E%3Ccircle cx='20' cy='20' r='1' fill='%23125446' opacity='0.05'/%3E%3C/pattern%3E%3C/defs%3E%3Crect width='100%25' height='100%25' fill='url(%23g)'/%3E%3Crect width='100%25' height='100%25' fill='url(%23p)'/%3E%3C/svg%3E">
+</picture>
+
 <p align="center">
   <img src="assets/banner1.svg" width="780" alt="Alexey Lugachev" />
 </p>
@@ -62,8 +70,5 @@
   </picture>
 </p>
 
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=alakei1&theme=flat&no-frame=true&column=7" alt="Trophies" />
-</p>
 
 
