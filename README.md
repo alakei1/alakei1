@@ -48,9 +48,10 @@
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=alakei1&bg_color=EBD2CD&color=125446&line=3B887B&point=DB8C7B&hide_border=true&radius=20" width="90%" />
 </p>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/alakei1/alakei1/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/alakei1/alakei1/output/github-snake.svg" />
-  <img alt="github-snake" src="https://raw.githubusercontent.com/alakei1/alakei1/output/github-snake.svg" />
-</picture>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/alakei1/alakei1/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/alakei1/alakei1/output/github-snake.svg" />
+    <img alt="github-snake" src="https://raw.githubusercontent.com/alakei1/alakei1/output/github-snake.svg" />
+  </picture>
+</p>
