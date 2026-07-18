@@ -1,7 +1,6 @@
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Cera+Stencil+PRO+Trial&weight=700&size=34&duration=1&pause=1&color=125446&center=true&vCenter=true&width=780&height=65&background=EBD2CD&lines=Alexey+Lugachev&cursor=_" alt="Имя" />
+  <img src="https://readme-typing-svg.demolab.com?font=Cera+Stencil+PRO+Trial&weight=700&size=34&duration=1&pause=1&color=125446&center=true&vCenter=true&width=780&height=65&background=EBD2CD&lines=Alexey+Lugachev" alt="Имя" />
 </p>
-
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Cera+Stencil+PRO+Trial&weight=500&size=22&pause=1200&color=125446&center=true&vCenter=true&width=780&height=50&background=EBD2CD&lines=Python+Backend+%7C+ML+Engineer+%7C+Deploy;Always+learning+%26+improving" alt="Навыки" />
 </p>
