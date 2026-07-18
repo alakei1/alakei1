@@ -21,9 +21,7 @@
   </a>
 </p>
 
-<h3 align="center" style="color: #125446; font-weight: 700; border-bottom: 3px solid #DB8C7B; display: inline-block; padding-bottom: 5px;">
-  🛠 Tech Stack
-</h3>
+<h3 align="center" style="color: #125446; font-weight: 700;">🛠 Tech Stack</h3>
 
 
 <p align="center">
