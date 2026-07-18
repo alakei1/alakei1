@@ -62,4 +62,8 @@
   </picture>
 </p>
 
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=alakei1&theme=flat&no-frame=true&column=7" alt="Trophies" />
+</p>
+
 
