@@ -1,9 +1,8 @@
 
 <!-- README.md -->
 <!--цветовая палитра палитра #DB8C7B #EBD2CD #3B887B #125446 #112221 -->
-<!-- ШАПКА-ФОН (вместо фона всей страницы) -->
 <p align="center">
-  <img src="assets/header-banner.svg" width="100%" alt="Alexey Lugachev" />
+  <img src="https://ishan-rest.vercel.app/svg/banner/hacker/alakei1" alt="Hacker Banner" />
 </p>
 <p align="center">
   <img src="assets/banner1.svg" width="780" alt="Alexey Lugachev" />
