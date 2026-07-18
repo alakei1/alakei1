@@ -17,3 +17,13 @@
     <img src="https://img.shields.io/badge/Email-lugachev70%40gmail.com-DB8C7B?style=for-the-badge&logo=gmail&logoColor=white&labelColor=EBD2CD&color=DB8C7B&borderRadius=20" />
   </a>
 </p>
+
+<h3 align="center">🛠 Tech Stack</h3>
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white&labelColor=EBD2CD&color=3776AB" />
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white&labelColor=EBD2CD&color=009688" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white&labelColor=EBD2CD&color=2496ED" />
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white&labelColor=EBD2CD&color=4169E1" />
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black&labelColor=EBD2CD&color=FCC624" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white&labelColor=EBD2CD&color=F05032" />
+</p>
