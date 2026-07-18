@@ -2,7 +2,7 @@
   <span style="
     background-color: #EBD2CD;
     color: #125446;
-    font-family: 'Cera Stencil PRO Trial', 'Impact', sans-serif;
+    font-family: 'Cera Stencil PRO Trial', Impact, sans-serif;
     font-weight: 700;
     font-size: 42px;
     padding: 12px 32px;
