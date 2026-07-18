@@ -4,10 +4,11 @@
     color: #125446;
     font-family: 'Cera Stencil PRO Trial', 'Impact', sans-serif;
     font-weight: 700;
-    font-size: 34px;
-    padding: 8px 24px;
+    font-size: 42px;
+    padding: 12px 32px;
     border-radius: 8px;
     display: inline-block;
+    letter-spacing: 1px;
   ">
     Alexey Lugachev
   </span>
