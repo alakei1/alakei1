@@ -1,0 +1,13 @@
+<svg width="780" height="70" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400&amp;display=swap');
+    </style>
+  </defs>
+  
+  <!-- Фон с круглыми углами (rx=20) -->
+  <rect width="780" height="70" rx="20" fill="#EBD2CD"/>
+  
+  <!-- Текст -->
+  <text x="390" y="38" font-family="'Dancing Script', cursive" font-size="32" fill="#DB8C7B" text-anchor="middle" dominant-baseline="middle">Viam supervadet vadens</text>
+</svg>
