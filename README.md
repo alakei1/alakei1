@@ -1,20 +1,7 @@
 <p align="center">
-  <span style="
-    background-color: #EBD2CD;
-    color: #125446;
-    font-family: 'Arial', sans-serif;
-    font-weight: 700;
-    font-size: 36px;
-    padding: 20px 40px;
-    border-radius: 12px;
-    display: inline-block;
-    letter-spacing: 1px;
-    line-height: 1.6;
-  ">
-    Алексей Лугачев<br>
-    <span style="font-weight: 400; font-size: 20px;">
-      Backend | ML Engineer | DevOps<br>
-      Python • FastAPI • Docker • Kubernetes
-    </span>
-  </span>
+  <img src="https://readme-typing-svg.demolab.com?font=Arial&weight=700&size=42&duration=2000&pause=500&color=125446&center=true&vCenter=true&width=780&height=80&background=EBD2CD&lines=L;Lu;Lug;Luga;Lugac;Lugach;Lugache;Lugachev" alt="Фамилия по буквам" />
+</p>
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Arial&weight=500&size=22&duration=3000&pause=1000&color=125446&center=true&vCenter=true&width=780&height=50&background=EBD2CD&lines=Backend+%7C+ML+Engineer+%7C+DevOps;Python+%7C+FastAPI+%7C+Docker+%7C+Kubernetes;Building+scalable+%26+reliable+systems" alt="Навыки" />
 </p>
