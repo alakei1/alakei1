@@ -19,7 +19,8 @@
     <img src="https://img.shields.io/badge/Email-lugachev70%40gmail.com-DB8C7B?style=for-the-badge&logo=gmail&logoColor=white&labelColor=EBD2CD&color=DB8C7B&borderRadius=20" />
   </a>
 </p>
-<h3 align="center">🛠 Tech Stack</h3>
+
+<h3 align="center" style="color: #125446; font-weight: 700;">🛠 Tech Stack</h3>
 
 
 <p align="center">
