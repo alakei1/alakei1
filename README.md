@@ -1,45 +1,27 @@
 <p align="center">
   <span style="
     background-color: #EBD2CD;
-    padding: 20px 40px;
-    border-radius: 16px;
+    padding: 16px 32px;
+    border-radius: 20px;
     display: inline-block;
-    position: relative;
-    box-shadow: 0 4px 20px rgba(18, 84, 70, 0.10);
+    box-shadow: 0 8px 32px rgba(18, 84, 70, 0.15);
   ">
-    <span style="
-      display: block;
-      text-align: center;
-      font-size: 24px;
-      color: #3B887B;
-      margin-bottom: 4px;
-    ">
-      ═══════════════════════════════════
-    </span>
     <img src="https://readme-typing-svg.demolab.com?font=Arial&weight=700&size=38&pause=1000&color=125446&center=true&vCenter=true&width=780&height=120&background=transparent&lines=Alexey+Lugachev;Backend+%7C+ML+Engineer+%7C+DevOps;Python+%7C+FastAPI+%7C+Docker;Building+scalable+systems" alt="Alexey Lugachev" />
-    <span style="
-      display: block;
-      text-align: center;
-      font-size: 24px;
-      color: #3B887B;
-      margin-top: 4px;
-    ">
-      ═══════════════════════════════════
-    </span>
   </span>
 </p>
 
 <p align="center">
   <span style="
     background-color: #EBD2CD;
-    padding: 12px 30px;
-    border-radius: 12px;
+    padding: 10px 24px;
+    border-radius: 16px;
     display: inline-block;
-    box-shadow: 0 4px 16px rgba(219, 140, 123, 0.15);
+    box-shadow: 0 4px 20px rgba(219, 140, 123, 0.20);
   ">
-    <img src="https://readme-typing-svg.demolab.com?font=Dancing+Script&weight=400&size=32&pause=1000&color=DB8C7B&center=true&vCenter=true&width=780&height=70&background=transparent&lines=✦+Viam+supervadet+vadens+✦" alt="Viam supervadet vadens" />
+    <img src="https://readme-typing-svg.demolab.com?font=Dancing+Script&weight=400&size=32&pause=1000&color=DB8C7B&center=true&vCenter=true&width=780&height=70&background=transparent&lines=Viam+supervadet+vadens" alt="Viam supervadet vadens" />
   </span>
 </p>
+
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Arial&weight=700&size=38&pause=1000&color=125446&center=true&vCenter=true&width=780&height=120&background=EBD2CD&lines=Alexey+Lugachev;Backend+%7C+ML+Engineer+%7C+DevOps;Python+%7C+FastAPI+%7C+Docker;Building+scalable+systems" alt="Alexey Lugachev" />
 </p>
