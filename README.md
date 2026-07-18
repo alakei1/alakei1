@@ -1,6 +1,7 @@
 
 <!-- README.md -->
 <!--цветовая палитра палитра #DB8C7B #EBD2CD #3B887B #125446 #112221 -->
+<!-- Волны -->
 <p align="center">
   <svg width="100%" height="150" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 150" preserveAspectRatio="none" style="display: block; width: 100%;">
     <defs>
@@ -9,40 +10,16 @@
         <stop offset="100%" style="stop-color:#112221;stop-opacity:0.9" />
       </linearGradient>
     </defs>
-
-    <!-- Волна 1 -->
-    <path d="M0,40 Q100,10 200,40 T400,40 T600,40 T800,40 L800,150 L0,150 Z" 
-          fill="#DB8C7B" opacity="0.25">
-      <animate attributeName="d" 
-               values="M0,40 Q100,10 200,40 T400,40 T600,40 T800,40 L800,150 L0,150 Z;
-                       M0,40 Q100,70 200,40 T400,40 T600,40 T800,40 L800,150 L0,150 Z;
-                       M0,40 Q100,10 200,40 T400,40 T600,40 T800,40 L800,150 L0,150 Z" 
-               dur="5s" repeatCount="indefinite"/>
+    <path d="M0,40 Q100,10 200,40 T400,40 T600,40 T800,40 L800,150 L0,150 Z" fill="#DB8C7B" opacity="0.25">
+      <animate attributeName="d" values="M0,40 Q100,10 200,40 T400,40 T600,40 T800,40 L800,150 L0,150 Z;M0,40 Q100,70 200,40 T400,40 T600,40 T800,40 L800,150 L0,150 Z;M0,40 Q100,10 200,40 T400,40 T600,40 T800,40 L800,150 L0,150 Z" dur="5s" repeatCount="indefinite"/>
     </path>
-
-    <!-- Волна 2 -->
-    <path d="M0,70 Q150,40 300,70 T600,70 T900,70 L900,150 L0,150 Z" 
-          fill="#3B887B" opacity="0.4">
-      <animate attributeName="d" 
-               values="M0,70 Q150,40 300,70 T600,70 T900,70 L900,150 L0,150 Z;
-                       M0,70 Q150,100 300,70 T600,70 T900,70 L900,150 L0,150 Z;
-                       M0,70 Q150,40 300,70 T600,70 T900,70 L900,150 L0,150 Z" 
-               dur="6s" repeatCount="indefinite"/>
+    <path d="M0,70 Q150,40 300,70 T600,70 T900,70 L900,150 L0,150 Z" fill="#3B887B" opacity="0.4">
+      <animate attributeName="d" values="M0,70 Q150,40 300,70 T600,70 T900,70 L900,150 L0,150 Z;M0,70 Q150,100 300,70 T600,70 T900,70 L900,150 L0,150 Z;M0,70 Q150,40 300,70 T600,70 T900,70 L900,150 L0,150 Z" dur="6s" repeatCount="indefinite"/>
     </path>
-
-    <!-- Волна 3 -->
-    <path d="M0,100 Q200,70 400,100 T800,100 L800,150 L0,150 Z" 
-          fill="url(#wave3Grad)" opacity="0.9">
-      <animate attributeName="d" 
-               values="M0,100 Q200,70 400,100 T800,100 L800,150 L0,150 Z;
-                       M0,100 Q200,130 400,100 T800,100 L800,150 L0,150 Z;
-                       M0,100 Q200,70 400,100 T800,100 L800,150 L0,150 Z" 
-               dur="7s" repeatCount="indefinite"/>
+    <path d="M0,100 Q200,70 400,100 T800,100 L800,150 L0,150 Z" fill="url(#wave3Grad)" opacity="0.9">
+      <animate attributeName="d" values="M0,100 Q200,70 400,100 T800,100 L800,150 L0,150 Z;M0,100 Q200,130 400,100 T800,100 L800,150 L0,150 Z;M0,100 Q200,70 400,100 T800,100 L800,150 L0,150 Z" dur="7s" repeatCount="indefinite"/>
     </path>
   </svg>
-</p>
-<p align="center">
-  <img src="assets/banner1.svg" width="780" alt="Alexey Lugachev" />
 </p>
 
 <p align="center">
