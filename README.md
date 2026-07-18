@@ -1,6 +1,9 @@
 
 <!-- README.md -->
 <!--цветовая палитра палитра #DB8C7B #EBD2CD #3B887B #125446 #112221 -->
+<p align="center">
+  <img src="assets/waves.svg" width="100%" alt="Waves" />
+</p>
 
 <p align="center">
   <img src="assets/banner1.svg" width="780" alt="Alexey Lugachev" />
@@ -23,9 +26,6 @@
 
 <h3 align="center" style="color: #125446; font-weight: 700;">🛠 Tech Stack</h3>
 
-<p align="center">
-  <img src="assets/waves.svg" width="100%" alt="Waves" />
-</p>
 
 <p align="center">
   <!-- Ряд 1: Языки + Фреймворки -->
