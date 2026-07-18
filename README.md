@@ -1,7 +1,11 @@
 <!-- README.md -->
 
 <p align="center">
-  <img src="https://typingsvg.vercel.app/api/svg?text=Alexey+Lugachev;Backend+%7C+ML+Engineer+%7C+DevOps;Python+%7C+FastAPI+%7C+Docker;Building+scalable+systems&font=Arial&color=125446&backgroundColor=EBD2CD&width=780&height=120&fontSize=28&typingSpeed=0.07&pause=1000&center=true&vCenter=true&border=true&cursorStyle=straight" />
+  <svg width="780" height="120" xmlns="http://www.w3.org/2000/svg">
+    <rect width="780" height="120" rx="20" fill="#EBD2CD"/>
+    <text x="390" y="55" font-family="Arial" font-weight="700" font-size="38" fill="#125446" text-anchor="middle">Alexey Lugachev</text>
+    <text x="390" y="95" font-family="Arial" font-size="20" fill="#125446" text-anchor="middle">Backend | ML Engineer | DevOps</text>
+  </svg>
 </p>
 
 <p align="center">
