@@ -35,4 +35,4 @@
   </span>
 </p>
 
-[![Ваша статистика](https://github-readme-stats.vercel.app/api?username=ВАШ_ЛОГИН)](https://github.com/anuraghazra/github-readme-stats)
+[![Ваша статистика](https://github-readme-stats.vercel.app/api?username=alakei1)](https://github.com/anuraghazra/github-readme-stats)
