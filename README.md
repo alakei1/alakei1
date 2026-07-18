@@ -1,13 +1,29 @@
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Arial&weight=700&size=38&pause=1000&color=125446&center=true&vCenter=true&width=780&height=120&background=EBD2CD&lines=Alexey+Lugachev;Backend+%7C+ML+Engineer+%7C+DevOps;Python+%7C+FastAPI+%7C+Docker;Building+scalable+systems" alt="Alexey Lugachev" />
+  <span style="
+    background-color: #EBD2CD;
+    padding: 16px 32px;
+    border-radius: 16px;
+    display: inline-block;
+    border-left: 6px solid #3B887B;
+    border-right: 6px solid #DB8C7B;
+    box-shadow: 0 4px 16px rgba(18, 84, 70, 0.10);
+  ">
+    <img src="https://readme-typing-svg.demolab.com?font=Arial&weight=700&size=38&pause=1000&color=125446&center=true&vCenter=true&width=780&height=120&background=transparent&lines=Alexey+Lugachev;Backend+%7C+ML+Engineer+%7C+DevOps;Python+%7C+FastAPI+%7C+Docker;Building+scalable+systems" alt="Alexey Lugachev" />
+  </span>
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Dancing+Script&weight=400&size=32&pause=1000&color=DB8C7B&center=true&vCenter=true&width=780&height=70&background=EBD2CD&lines=✧+Viam+supervadet+vadens+✧" alt="Viam supervadet vadens" />
+  <span style="
+    background-color: #EBD2CD;
+    padding: 10px 24px;
+    border-radius: 12px;
+    display: inline-block;
+    border-bottom: 4px solid #DB8C7B;
+    box-shadow: 0 4px 12px rgba(219, 140, 123, 0.15);
+  ">
+    <img src="https://readme-typing-svg.demolab.com?font=Dancing+Script&weight=400&size=32&pause=1000&color=DB8C7B&center=true&vCenter=true&width=780&height=70&background=transparent&lines=Viam+supervadet+vadens" alt="Viam supervadet vadens" />
+  </span>
 </p>
-
-
-
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Arial&weight=700&size=38&pause=1000&color=125446&center=true&vCenter=true&width=780&height=120&background=EBD2CD&lines=Alexey+Lugachev;Backend+%7C+ML+Engineer+%7C+DevOps;Python+%7C+FastAPI+%7C+Docker;Building+scalable+systems" alt="Alexey Lugachev" />
