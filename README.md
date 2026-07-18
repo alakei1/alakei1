@@ -34,3 +34,5 @@
     Building useful tools | Open source enthusiast
   </span>
 </p>
+
+[![Ваша статистика](https://github-readme-stats.vercel.app/api?username=ВАШ_ЛОГИН)](https://github.com/anuraghazra/github-readme-stats)
