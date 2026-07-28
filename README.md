@@ -50,17 +50,6 @@
 
 
 
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=alakei1&bg_color=EBD2CD&color=125446&line=3B887B&point=DB8C7B&hide_border=true&radius=20" width="90%" />
-</p>
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/alakei1/alakei1/output/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/alakei1/alakei1/output/github-snake.svg" />
-    <img alt="github-snake" src="https://raw.githubusercontent.com/alakei1/alakei1/output/github-snake.svg" />
-  </picture>
-</p>
-
-
+![Article](https://coolreadme.xyz/api/article-card?title=Building%20a%20compiler%20in%20Rust&excerpt=A%20weekend%20deep%20dive%20into%20lexers%2C%20parsers%2C%20and%20why%20I%20now%20respect%20compiler%20engineers.&tag=Tutorial&author=yerdaulet-damir&theme=medium)
 
 
