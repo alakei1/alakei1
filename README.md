@@ -50,6 +50,5 @@
 
 
 
-![Article](https://coolreadme.xyz/api/article-card?title=Building%20a%20compiler%20in%20Rust&excerpt=A%20weekend%20deep%20dive%20into%20lexers%2C%20parsers%2C%20and%20why%20I%20now%20respect%20compiler%20engineers.&tag=Tutorial&author=yerdaulet-damir&theme=medium)
 
 
