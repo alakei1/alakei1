@@ -3,6 +3,7 @@
 <!--цветовая палитра палитра #DB8C7B #EBD2CD #3B887B #125446 #112221 -->
 <!-- Волны -->
 <p align="center">
+  <img src="assets/hero-baner.svg" width="780" alt="Alexey Lugachev" />
   <img src="assets/banner1.svg" width="780" alt="Alexey Lugachev" />
 </p>
 <p align="center">
