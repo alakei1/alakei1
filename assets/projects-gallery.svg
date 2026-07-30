@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;family=JetBrains+Mono:wght@500;700&amp;display=swap');
+      @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+
+      @keyframes fadeUp { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: translateY(0); } }
+      @keyframes headIn { from { opacity: 0; transform: translateY(-4px); } to { opacity: 1; transform: translateY(0); } }
+      @keyframes dotBreathe { 0%,100% { opacity: 0.85; } 50% { opacity: 1; } }
+
+      .header { animation: headIn 0.5s ease forwards; }
+      .tile-bg { transition: fill 0.2s ease; }
+      .tile { cursor: pointer; }
+      .tile:hover .tile-bg { fill: #111113; }
+      .tile:hover .tile-name { fill: #F87171; }
+      .lang-dot { animation: dotBreathe 2.6s ease-in-out infinite; transform-origin: center; transform-box: fill-box; }
+
+      .tile-0 { animation: fadeUp 0.5s ease 0.10s both; opacity: 0; }
+.tile-1 { animation: fadeUp 0.5s ease 0.20s both; opacity: 0; }
+.tile-2 { animation: fadeUp 0.5s ease 0.30s both; opacity: 0; }
+    </style>
+  </defs>
+
+  <rect width="800" height="600" rx="16" fill="#030303" stroke="rgba(255,255,255,0.08)"/>
+
+  <g class="header">
+    <text x="36" y="48" font-family="'Inter',sans-serif" font-size="11" font-weight="700" fill="#6b7280" letter-spacing="0.16em">PROJECTS</text>
+    <text x="36" y="76" font-family="'Inter',sans-serif" font-size="22" font-weight="800" fill="#f4f4f5" letter-spacing="-0.4">yerdaulet-damir</text>
+    <circle cx="40" cy="92" r="3" fill="#F87171" class="lang-dot"/>
+    <text x="50" y="96" font-family="'JetBrains Mono',monospace" font-size="10" font-weight="500" fill="#9ca3af" letter-spacing="0.06em">3 repositories</text>
+  </g>
+
+  
+    <a xlink:href="https://github.com/yerdaulet/coolreadme" href="https://github.com/yerdaulet/coolreadme" target="_blank" rel="noopener">
+      <g class="tile tile-0">
+        
+        <rect class="tile-bg" x="36" y="106" width="356" height="221" rx="12" fill="#0a0a0a" stroke="rgba(255,255,255,0.08)"/>
+        <g transform="translate(36,106)">
+          <text class="tile-name" x="20" y="36" font-family="'Inter',sans-serif" font-size="16" font-weight="700" fill="#f4f4f5" letter-spacing="-0.2">coolreadme</text>
+
+          <text x="20" y="62" font-family="'Inter',sans-serif" font-size="12" font-weight="400" fill="#9ca3af">Animated README cards</text>
+
+          <!-- Lang dot + label -->
+          <circle class="lang-dot" cx="25" cy="299" r="5" fill="#3178C6" style="animation-delay: 0.00s;"/>
+          <text x="34" y="303" font-family="'Inter',sans-serif" font-size="11" font-weight="500" fill="#9ca3af">TypeScript</text>
+
+          <!-- Star icon + count -->
+          <g transform="translate(128,292)">
+            <path d="M 6 0 L 7.5 4 L 12 4.5 L 8.6 7.5 L 9.6 12 L 6 9.7 L 2.4 12 L 3.4 7.5 L 0 4.5 L 4.5 4 Z" fill="#6b7280"/>
+          </g>
+          <text x="146" y="303" font-family="'JetBrains Mono',monospace" font-size="11" font-weight="600" fill="#6b7280">142</text>
+        </g>
+      </g>
+    </a>
+
+    <a xlink:href="https://github.com/yerdaulet/next-og" href="https://github.com/yerdaulet/next-og" target="_blank" rel="noopener">
+      <g class="tile tile-1">
+        
+        <rect class="tile-bg" x="408" y="106" width="356" height="221" rx="12" fill="#0a0a0a" stroke="rgba(255,255,255,0.08)"/>
+        <g transform="translate(408,106)">
+          <text class="tile-name" x="20" y="36" font-family="'Inter',sans-serif" font-size="16" font-weight="700" fill="#f4f4f5" letter-spacing="-0.2">next-og</text>
+
+          <text x="20" y="62" font-family="'Inter',sans-serif" font-size="12" font-weight="400" fill="#9ca3af">Edge-rendered OG images</text>
+
+          <!-- Lang dot + label -->
+          <circle class="lang-dot" cx="25" cy="299" r="5" fill="#3178C6" style="animation-delay: 0.15s;"/>
+          <text x="34" y="303" font-family="'Inter',sans-serif" font-size="11" font-weight="500" fill="#9ca3af">TypeScript</text>
+
+          <!-- Star icon + count -->
+          <g transform="translate(128,292)">
+            <path d="M 6 0 L 7.5 4 L 12 4.5 L 8.6 7.5 L 9.6 12 L 6 9.7 L 2.4 12 L 3.4 7.5 L 0 4.5 L 4.5 4 Z" fill="#6b7280"/>
+          </g>
+          <text x="146" y="303" font-family="'JetBrains Mono',monospace" font-size="11" font-weight="600" fill="#6b7280">89</text>
+        </g>
+      </g>
+    </a>
+
+    <a xlink:href="https://github.com/yerdaulet/ai-toolkit" href="https://github.com/yerdaulet/ai-toolkit" target="_blank" rel="noopener">
+      <g class="tile tile-2">
+        
+        <rect class="tile-bg" x="36" y="343" width="356" height="221" rx="12" fill="#0a0a0a" stroke="rgba(255,255,255,0.08)"/>
+        <g transform="translate(36,343)">
+          <text class="tile-name" x="20" y="36" font-family="'Inter',sans-serif" font-size="16" font-weight="700" fill="#f4f4f5" letter-spacing="-0.2">ai-toolkit</text>
+
+          <text x="20" y="62" font-family="'Inter',sans-serif" font-size="12" font-weight="400" fill="#9ca3af">LLM utilities</text>
+
+          <!-- Lang dot + label -->
+          <circle class="lang-dot" cx="25" cy="536" r="5" fill="#3572A5" style="animation-delay: 0.30s;"/>
+          <text x="34" y="540" font-family="'Inter',sans-serif" font-size="11" font-weight="500" fill="#9ca3af">Python</text>
+
+          <!-- Star icon + count -->
+          <g transform="translate(100,529)">
+            <path d="M 6 0 L 7.5 4 L 12 4.5 L 8.6 7.5 L 9.6 12 L 6 9.7 L 2.4 12 L 3.4 7.5 L 0 4.5 L 4.5 4 Z" fill="#6b7280"/>
+          </g>
+          <text x="118" y="540" font-family="'JetBrains Mono',monospace" font-size="11" font-weight="600" fill="#6b7280">54</text>
+        </g>
+      </g>
+    </a>
+
+  <text x="784" y="588" font-family="'Inter',sans-serif" font-size="9" fill="#6b7280" text-anchor="end" letter-spacing="0.08em" opacity="0.7">coolreadme.xyz</text>
+</svg>

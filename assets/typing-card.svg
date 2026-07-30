@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="120" viewBox="0 0 800 120">
+  <style>
+      @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;700&amp;display=swap');
+      @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+
+      .root { animation: fadeIn 0.5s ease forwards; }
+
+      @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+      @keyframes blink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
+      .cursor { animation: blink 1s steps(2) infinite; fill: #F87171; }
+
+      
+          @keyframes typeLine0 {
+            0% { width: 0; opacity: 0; }
+            0.00% { width: 0; opacity: 0; }
+            0.50% { width: 0; opacity: 1; }
+            11.67% { width: 100%; opacity: 1; }
+            28.33% { width: 100%; opacity: 1; }
+            31.67% { width: 100%; opacity: 0; }
+            33.33% { width: 0; opacity: 0; }
+            100% { width: 0; opacity: 0; }
+          }
+          .line0 { animation: typeLine0 9s steps(40, end) infinite; }
+          
+
+          @keyframes typeLine1 {
+            0% { width: 0; opacity: 0; }
+            33.33% { width: 0; opacity: 0; }
+            33.83% { width: 0; opacity: 1; }
+            45.00% { width: 100%; opacity: 1; }
+            61.67% { width: 100%; opacity: 1; }
+            65.00% { width: 100%; opacity: 0; }
+            66.67% { width: 0; opacity: 0; }
+            100% { width: 0; opacity: 0; }
+          }
+          .line1 { animation: typeLine1 9s steps(40, end) infinite; }
+          
+
+          @keyframes typeLine2 {
+            0% { width: 0; opacity: 0; }
+            66.67% { width: 0; opacity: 0; }
+            67.17% { width: 0; opacity: 1; }
+            78.33% { width: 100%; opacity: 1; }
+            95.00% { width: 100%; opacity: 1; }
+            98.33% { width: 100%; opacity: 0; }
+            100.00% { width: 0; opacity: 0; }
+            100% { width: 0; opacity: 0; }
+          }
+          .line2 { animation: typeLine2 9s steps(40, end) infinite; }
+          
+    </style>
+  <rect width="800" height="120" rx="12" fill="#030303" stroke="rgba(255,255,255,0.08)"/>
+  <g class="root">
+    
+    <defs>
+      <clipPath id="clip-0">
+        <rect x="40" y="32" height="40" width="0">
+          <animate attributeName="width" values="0;0;244.8;244.8;0;0" keyTimes="0;0.0000;0.1167;0.2833;0.3167;1" dur="9s" repeatCount="indefinite"/>
+        </rect>
+      </clipPath>
+    </defs>
+    <g>
+      <text x="40" y="68" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="24" font-weight="500" fill="#f4f4f5" clip-path="url(#clip-0)" opacity="0">Building AI tools<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.0000;0.1167;0.2833;0.3167;1" dur="9s" repeatCount="indefinite"/></text>
+      <rect class="cursor" x="0" y="42" width="3" height="28" opacity="0">
+        <animate attributeName="x" values="40;40;284.8;284.8;40;40" keyTimes="0;0.0000;0.1167;0.2833;0.3167;1" dur="9s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.0000;0.1167;0.2833;0.3167;1" dur="9s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+
+    <defs>
+      <clipPath id="clip-1">
+        <rect x="40" y="32" height="40" width="0">
+          <animate attributeName="width" values="0;0;172.8;172.8;0;0" keyTimes="0;0.3333;0.4500;0.6167;0.6500;1" dur="9s" repeatCount="indefinite"/>
+        </rect>
+      </clipPath>
+    </defs>
+    <g>
+      <text x="40" y="68" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="24" font-weight="500" fill="#f4f4f5" clip-path="url(#clip-1)" opacity="0">Open to work<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.3333;0.4500;0.6167;0.6500;1" dur="9s" repeatCount="indefinite"/></text>
+      <rect class="cursor" x="0" y="42" width="3" height="28" opacity="0">
+        <animate attributeName="x" values="40;40;212.8;212.8;40;40" keyTimes="0;0.3333;0.4500;0.6167;0.6500;1" dur="9s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.3333;0.4500;0.6167;0.6500;1" dur="9s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+
+    <defs>
+      <clipPath id="clip-2">
+        <rect x="40" y="32" height="40" width="0">
+          <animate attributeName="width" values="0;0;216;216;0;0" keyTimes="0;0.6667;0.7833;0.9500;0.9833;1" dur="9s" repeatCount="indefinite"/>
+        </rect>
+      </clipPath>
+    </defs>
+    <g>
+      <text x="40" y="68" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="24" font-weight="500" fill="#f4f4f5" clip-path="url(#clip-2)" opacity="0">Based in Almaty<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.6667;0.7833;0.9500;0.9833;1" dur="9s" repeatCount="indefinite"/></text>
+      <rect class="cursor" x="0" y="42" width="3" height="28" opacity="0">
+        <animate attributeName="x" values="40;40;256;256;40;40" keyTimes="0;0.6667;0.7833;0.9500;0.9833;1" dur="9s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.6667;0.7833;0.9500;0.9833;1" dur="9s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+  </g>
+  <text x="788" y="112" font-family="'JetBrains Mono',monospace" font-size="9" fill="#f4f4f5" opacity="0.35" text-anchor="end" letter-spacing="0.08em">coolreadme.xyz</text>
+</svg>
