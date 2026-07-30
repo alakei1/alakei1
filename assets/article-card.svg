@@ -1,0 +1,62 @@
+<svg width="800" height="420" viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&amp;family=JetBrains+Mono:wght@400;700&amp;family=Lora:wght@700&amp;display=swap');
+@keyframes fadeUp { from{opacity:0;transform:translateY(8px)} to{opacity:1;transform:translateY(0)} }
+
+    .tag    {font:700 10px/1 'JetBrains Mono',monospace;fill:#FFFCF7;letter-spacing:.18em}
+    .title  {font:700 34px/1.2 'Lora',serif;fill:#1A1A1A}
+    .excpt  {font:400 15px/1.7 'Inter',sans-serif;fill:#555555}
+    .aname  {font:600 13px/1 'Inter',sans-serif;fill:#1A1A1A}
+    .asub   {font:400 11px/1 'Inter',sans-serif;fill:#888888}
+    .wm     {font:400 9px/1 'Inter',sans-serif;fill:rgba(0,0,0,.18);letter-spacing:.08em}
+    .tag-g  {animation:fadeUp .4s .2s both}
+    .titl-g {animation:fadeUp .5s .3s both}
+    .exc-g  {animation:fadeUp .5s .5s both}
+    .auth-g {animation:fadeUp .4s .7s both}
+  </style>
+  
+  
+</defs>
+
+<rect width="800" height="420" fill="#FFFCF7"/>
+<!-- Top accent line fills left-to-right -->
+<rect x="0" y="0" width="0" height="4" fill="#1A1A1A">
+  <animate attributeName="width" from="0" to="800" dur=".5s" fill="freeze"/>
+</rect>
+
+
+
+<!-- Tag pill -->
+<g transform="translate(48,44)"><g class="tag-g">
+  <rect x="0" y="-14" width="86.4" height="26" rx="4" fill="#1A1A1A"/>
+  <text class="tag" x="12" y="3">Tutorial</text>
+</g></g>
+
+<!-- Title -->
+<g transform="translate(48,80)"><g class="titl-g">
+  <text class="title" x="0" y="0">Building a</text>
+  <text class="title" x="0" y="42.5">compiler in Rust</text>
+</g></g>
+
+<!-- Divider -->
+<line x1="48" y1="200" x2="752" y2="200" stroke="#E8E4DD" stroke-width="1">
+  <animate attributeName="opacity" from="0" to="1" dur=".3s" begin=".4s" fill="freeze"/>
+</line>
+
+<!-- Excerpt -->
+<g transform="translate(48,222)"><g class="exc-g">
+  <text class="excpt" x="0" y="0">A weekend deep dive into lexers, parsers,</text>
+  <text class="excpt" x="0" y="26">and why I now respect compiler engineers.</text>
+</g></g>
+
+<!-- Author row -->
+<g transform="translate(48,372)"><g class="auth-g">
+  <circle cx="15" cy="0" r="15" fill="#E8E4DD"/>
+  <text x="15" y="5" text-anchor="middle" font-family="Inter,sans-serif" font-size="13" font-weight="700" fill="#555">Y</text>
+  <text class="aname" x="38" y="-4">yerdaulet-damir</text>
+  <text class="asub" x="38" y="13">Published on GitHub README</text>
+</g></g>
+
+<text class="wm" x="786" y="412" text-anchor="end">coolreadme.xyz</text>
+</svg>
