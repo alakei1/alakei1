@@ -63,21 +63,26 @@
 </g></g>
 
 <!-- Author row -->
-<!-- Author row -->
-<g transform="translate(48,372)"><g class="auth-g">
-  <!-- Маска для скругления аватарки -->
-  <defs>
-    <clipPath id="avatar-clip">
-      <circle cx="15" cy="0" r="15"/>
-    </clipPath>
-  </defs>
+<g transform="translate(48,372)">
+  <g class="auth-g">
+    <!-- Маска для скругления аватарки -->
+    <defs>
+      <clipPath id="avatar-clip">
+        <!-- Центр круга (cx, cy) должен быть ровно посередине изображения -->
+        <circle cx="15" cy="15" r="15"/>
+      </clipPath>
+    </defs>
 
-  <!-- Ваша реальная аватарка из GitHub -->
-  <image href="https://avatars.githubusercontent.com/u/151620045?v=4&size=64" x="0" y="-15" width="30" height="30" clip-path="url(#avatar-clip)"/>
-  
-  <text class="aname" x="38" y="-4">Alexsey Luggachev</text>
-  <text class="asub" x="38" y="13"></text>
-</g></g>
+    <!-- Ваша реальная аватарка из GitHub -->
+    <!-- Изменены y="-15" на y="0" для синхронизации с маской -->
+    <image href="https://avatars.githubusercontent.com/u/151620045?v=4&size=64" x="0" y="0" width="30" height="30" clip-path="url(#avatar-clip)"/>
+    
+    <!-- Текст выровнен по вертикали относительно аватарки 30x30 -->
+    <text class="aname" x="42" y="14">Alexsey Luggachev</text>
+    <text class="asub" x="42" y="28"></text>
+  </g>
+</g>
+
 
 
 <text class="wm" x="786" y="532" text-anchor="end">@alakey1</text>
