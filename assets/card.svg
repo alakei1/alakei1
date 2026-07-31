@@ -29,7 +29,7 @@
 
 <!-- Tag pill -->
 <g transform="translate(48,44)"><g class="tag-g">
-  <rect x="0" y="-13" width="86.4" height="26" rx="4" fill="#1A1A1A"/>
+  <rect x="0" y="-16" width="86.4" height="26" rx="4" fill="#1A1A1A"/>
   <text class="tag" x="12" y="3">Tutorial</text>
 </g></g>
 
