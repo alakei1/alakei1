@@ -18,7 +18,10 @@
   </a>
 </p>
 
-<h3 align="center" style="color: #125446; font-weight: 700;">🛠 Tech Stack</h3>
+<p align="center">
+  <img src="assets/typing.svg" width="780" alt="Alexey Lugachev" />
+</p>
+
 
 
 <p align="center">
