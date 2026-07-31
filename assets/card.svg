@@ -2,7 +2,7 @@
 <defs>
   <style>
     @import url('https://googleapis.com');
-    @keyframes fadeUp { from{opacity:0;transform:translateY(8px)} to{opacity:1;transform:translateY(0)} }
+@keyframes fadeUp { from{opacity:0;transform:translateY(8px)} to{opacity:1;transform:translateY(0)} }
 
     .tag    {font:700 10px/1 'JetBrains Mono',monospace;fill:#EBD2CD;letter-spacing:.18em}
     .title  {font:700 34px/1.2 'Lora',serif;fill:#EBD2CD}
@@ -17,10 +17,8 @@
   </style>
 </defs>
 
-<!-- Основной темный изумрудный фон -->
 <rect width="800" height="540" fill="#112221"/>
-
-<!-- Top accent line fills left-to-right (Коралловый акцент) -->
+<!-- Top accent line fills left-to-right -->
 <rect x="0" y="0" width="0" height="4" fill="#DB8C7B">
   <animate attributeName="width" from="0" to="800" dur=".5s" fill="freeze"/>
 </rect>
@@ -42,24 +40,21 @@
   <animate attributeName="opacity" from="0" to="1" dur=".3s" begin=".4s" fill="freeze"/>
 </line>
 
-<!-- Excerpt (Ваш текст) -->
+<!-- Excerpt -->
 <g transform="translate(48,185)"><g class="exc-g">
-  <!-- Русский текст -->
   <text class="excpt" x="0" y="0">Мне нравится разбираться в том, как устроены современные IT-решения, и создавать</text>
   <text class="excpt" x="0" y="24">новые технологии. Мой главный принцип — непрерывное развитие, поэтому я учусь</text>
   <text class="excpt" x="0" y="48">и становлюсь лучше каждый день. Я не просто зазубриваю инструменты, а глубоко</text>
   <text class="excpt" x="0" y="72">погружаюсь в суть: мне важно досконально изучить технологию и понимать, как</text>
   <text class="excpt" x="0" y="96">работает каждая строчка кода.</text>
   
-  <!-- Разделитель между языками -->
-  <line x1="0" y1="130" x2="150" y2="130" stroke="#3B887B" stroke-width="1" opacity="0.5"/>
+  <line x1="0" y1="126" x2="100" y2="126" stroke="#3B887B" stroke-width="1" opacity="0.6"/>
   
-  <!-- Английский текст -->
-  <text class="excpt" x="0" y="165" font-weight="700">About Me:</text>
-  <text class="excpt" x="0" y="189">I am passionate about exploring how technologies work and building innovative solutions.</text>
-  <text class="excpt" x="0" y="213">Driven by continuous growth, I dedicate time every day to learning and refining my skills.</text>
-  <text class="excpt" x="0" y="237">Instead of just memorizing tools, I prefer to dive deep into the core concepts, ensuring</text>
-  <text class="excpt" x="0" y="261">I fully understand the logic behind every single line of code.</text>
+  <text class="excpt" x="0" y="160" font-weight="700">About Me:</text>
+  <text class="excpt" x="0" y="184">I am passionate about exploring how technologies work and building innovative solutions.</text>
+  <text class="excpt" x="0" y="208">Driven by continuous growth, I dedicate time every day to learning and refining my skills.</text>
+  <text class="excpt" x="0" y="232">Instead of just memorizing tools, I prefer to dive deep into the core concepts, ensuring</text>
+  <text class="excpt" x="0" y="256">I fully understand the logic behind every single line of code.</text>
 </g></g>
 
 <!-- Author row -->
