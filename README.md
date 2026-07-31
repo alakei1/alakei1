@@ -6,7 +6,10 @@
   <img src="assets/hero-banner.svg" width="780" alt="Alexey Lugachev" />
 </p>
 
-<table width="100%"><tr><td bgcolor="#3B887B" style="padding:1px;"></td></tr></table>
+<p align="center">
+  <img src="data:image/svg+xml,<svg xmlns='http://w3.org' width='780' height='3'><rect width='100%' height='100%' fill='%233B887B'/></svg>" width="780" height="3" alt="divider" />
+</p>
+
 
 
 <p align="center">
@@ -18,14 +21,18 @@
     <img src="https://img.shields.io/badge/Email-lugachev70%40gmail.com-DB8C7B?style=for-the-badge&logo=gmail&logoColor=white&labelColor=EBD2CD&color=DB8C7B&borderRadius=20" />
   </a>
 </p>
-<table width="100%"><tr><td bgcolor="#3B887B" style="padding:1px;"></td></tr></table>
+<p align="center">
+  <img src="data:image/svg+xml,<svg xmlns='http://w3.org' width='780' height='3'><rect width='100%' height='100%' fill='%233B887B'/></svg>" width="780" height="3" alt="divider" />
+</p>
+
 
 <p align="center">
   <img src="assets/typing.svg" width="780" alt="Alexey Lugachev" />
 </p>
 
-<table width="100%"><tr><td bgcolor="#3B887B" style="padding:1px;"></td></tr></table>
-
+<p align="center">
+  <img src="data:image/svg+xml,<svg xmlns='http://w3.org' width='780' height='3'><rect width='100%' height='100%' fill='%233B887B'/></svg>" width="780" height="3" alt="divider" />
+</p>
 
 <p align="center">
   <!-- Ряд 1: Языки + Фреймворки -->
