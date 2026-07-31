@@ -7,90 +7,91 @@
 
       @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
       @keyframes blink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
-      .cursor { animation: blink 1s steps(2) infinite; fill: #F87171; }
-
       
-          @keyframes typeLine0 {
-            0% { width: 0; opacity: 0; }
-            0.00% { width: 0; opacity: 0; }
-            0.50% { width: 0; opacity: 1; }
-            11.67% { width: 100%; opacity: 1; }
-            28.33% { width: 100%; opacity: 1; }
-            31.67% { width: 100%; opacity: 0; }
-            33.33% { width: 0; opacity: 0; }
-            100% { width: 0; opacity: 0; }
-          }
-          .line0 { animation: typeLine0 9s steps(40, end) infinite; }
-          
+      /* Курсор окрашен в ваш фирменный терракотовый цвет #DB8C7B */
+      .cursor { animation: blink 1s steps(2) infinite; fill: #DB8C7B; }
 
-          @keyframes typeLine1 {
-            0% { width: 0; opacity: 0; }
-            33.33% { width: 0; opacity: 0; }
-            33.83% { width: 0; opacity: 1; }
-            45.00% { width: 100%; opacity: 1; }
-            61.67% { width: 100%; opacity: 1; }
-            65.00% { width: 100%; opacity: 0; }
-            66.67% { width: 0; opacity: 0; }
-            100% { width: 0; opacity: 0; }
-          }
-          .line1 { animation: typeLine1 9s steps(40, end) infinite; }
-          
+      /* Первая фраза: "Teach Stack" (11 симв. * 14.4px = 158.4px) */
+      @keyframes typeLine0 {
+        0% { width: 0; opacity: 0; }
+        0.00% { width: 0; opacity: 0; }
+        0.50% { width: 0; opacity: 1; }
+        11.67% { width: 158.4px; opacity: 1; }
+        28.33% { width: 158.4px; opacity: 1; }
+        31.67% { width: 158.4px; opacity: 0; }
+        33.33% { width: 0; opacity: 0; }
+        100% { width: 0; opacity: 0; }
+      }
+      .line0 { animation: typeLine0 9s steps(11, end) infinite; }
 
-          @keyframes typeLine2 {
-            0% { width: 0; opacity: 0; }
-            66.67% { width: 0; opacity: 0; }
-            67.17% { width: 0; opacity: 1; }
-            78.33% { width: 100%; opacity: 1; }
-            95.00% { width: 100%; opacity: 1; }
-            98.33% { width: 100%; opacity: 0; }
-            100.00% { width: 0; opacity: 0; }
-            100% { width: 0; opacity: 0; }
-          }
-          .line2 { animation: typeLine2 9s steps(40, end) infinite; }
-          
-    </style>
-  <rect width="800" height="120" rx="12" fill="#030303" stroke="rgba(255,255,255,0.08)"/>
+      /* Вторая фраза: "Сtrl+C and Ctrl+v" (17 симв. * 14.4px = 244.8px) */
+      @keyframes typeLine1 {
+        0% { width: 0; opacity: 0; }
+        33.33% { width: 0; opacity: 0; }
+        33.83% { width: 0; opacity: 1; }
+        45.00% { width: 244.8px; opacity: 1; }
+        61.67% { width: 244.8px; opacity: 1; }
+        65.00% { width: 244.8px; opacity: 0; }
+        66.67% { width: 0; opacity: 0; }
+        100% { width: 0; opacity: 0; }
+      }
+      .line1 { animation: typeLine1 9s steps(17, end) infinite; }
+
+      /* Третья фраза: "Crafting future line by line" (28 симв. * 14.4px = 403.2px) */
+      @keyframes typeLine2 {
+        0% { width: 0; opacity: 0; }
+        66.67% { width: 0; opacity: 0; }
+        67.17% { width: 0; opacity: 1; }
+        78.33% { width: 403.2px; opacity: 1; }
+        95.00% { width: 403.2px; opacity: 1; }
+        98.33% { width: 403.2px; opacity: 0; }
+        100.00% { width: 0; opacity: 0; }
+        100% { width: 0; opacity: 0; }
+      }
+      .line2 { animation: typeLine2 9s steps(28, end) infinite; }
+  </style>
+
+  <!-- Базовый глубокий фон #112221 и рамка в цвет #3B887B -->
+  <rect width="800" height="120" rx="12" fill="#112221" stroke="rgba(59, 136, 123, 0.2)"/>
+  
   <g class="root">
     
+    <!-- ПЕРВАЯ ФРАЗА: Teach Stack -->
     <defs>
       <clipPath id="clip-0">
-        <rect x="40" y="32" height="40" width="0">
-          <animate attributeName="width" values="0;0;158.4;158.4;0;0" keyTimes="0;0.0000;0.1167;0.2833;0.3167;1" dur="9s" repeatCount="indefinite"/>
-        </rect>
+        <rect x="40" y="32" height="40" width="0" class="line0"/>
       </clipPath>
     </defs>
     <g>
-      <text x="40" y="68" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="24" font-weight="500" fill="#f4f4f5" clip-path="url(#clip-0)" opacity="0">Teach Stack<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.0000;0.1167;0.2833;0.3167;1" dur="9s" repeatCount="indefinite"/></text>
+      <text x="40" y="68" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="24" font-weight="500" fill="#EBD2CD" clip-path="url(#clip-0)" opacity="0">Teach Stack<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.0000;0.1167;0.2833;0.3167;1" dur="9s" repeatCount="indefinite"/></text>
       <rect class="cursor" x="0" y="42" width="3" height="28" opacity="0">
         <animate attributeName="x" values="40;40;198.4;198.4;40;40" keyTimes="0;0.0000;0.1167;0.2833;0.3167;1" dur="9s" repeatCount="indefinite"/>
         <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.0000;0.1167;0.2833;0.3167;1" dur="9s" repeatCount="indefinite"/>
       </rect>
     </g>
 
+    <!-- ВТОРАЯ ФРАЗА: Сtrl+C and Ctrl+v -->
     <defs>
       <clipPath id="clip-1">
-        <rect x="40" y="32" height="40" width="0">
-          <animate attributeName="width" values="0;0;244.8;244.8;0;0" keyTimes="0;0.3333;0.4500;0.6167;0.6500;1" dur="9s" repeatCount="indefinite"/>
-        </rect>
+        <rect x="40" y="32" height="40" width="0" class="line1"/>
       </clipPath>
     </defs>
     <g>
-      <text x="40" y="68" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="24" font-weight="500" fill="#f4f4f5" clip-path="url(#clip-1)" opacity="0">Сtrl&#43;C and Ctrl&#43;v<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.3333;0.4500;0.6167;0.6500;1" dur="9s" repeatCount="indefinite"/></text>
+      <text x="40" y="68" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="24" font-weight="500" fill="#EBD2CD" clip-path="url(#clip-1)" opacity="0">Сtrl&#43;C and Ctrl&#43;v<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.3333;0.4500;0.6167;0.6500;1" dur="9s" repeatCount="indefinite"/></text>
       <rect class="cursor" x="0" y="42" width="3" height="28" opacity="0">
         <animate attributeName="x" values="40;40;284.8;284.8;40;40" keyTimes="0;0.3333;0.4500;0.6167;0.6500;1" dur="9s" repeatCount="indefinite"/>
         <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.3333;0.4500;0.6167;0.6500;1" dur="9s" repeatCount="indefinite"/>
       </rect>
     </g>
 
+    <!-- ТРЕТЬЯ ФРАЗА: Crafting future line by line -->
     <defs>
       <clipPath id="clip-2">
-        <rect x="40" y="32" height="40" width="0">
-          <animate attributeName="width" values="0;0;403.2;403.2;0;0" keyTimes="0;0.6667;0.7833;0.9500;0.9833;1" dur="9s" repeatCount="indefinite"/>
-        </rect>
+        <rect x="40" y="32" height="40" width="0" class="line2"/>
       </clipPath>
     </defs>
     <g>
-      <text x="40" y="68" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="24" font-weight="500" fill="#f4f4f5" clip-path="url(#clip-2)" opacity="0">Crafting future line by line<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.6667;0.7833;0.9500;0.9833;1" dur="9s" repeatCount="indefinite"/></text>
+      <text x="40" y="68" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="24" font-weight="500" fill="#EBD2CD" clip-path="url(#clip-2)" opacity="0">Crafting future line by line<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.6667;0.7833;0.9500;0.9833;1" dur="9s" repeatCount="indefinite"/></text>
       <rect class="cursor" x="0" y="42" width="3" height="28" opacity="0">
         <animate attributeName="x" values="40;40;443.2;443.2;40;40" keyTimes="0;0.6667;0.7833;0.9500;0.9833;1" dur="9s" repeatCount="indefinite"/>
         <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.6667;0.7833;0.9500;0.9833;1" dur="9s" repeatCount="indefinite"/>
@@ -98,4 +99,6 @@
     </g>
   </g>
   
+  <!-- Копирайт-метка в цвет #3B887B с прозрачностью -->
+  <text x="788" y="112" font-family="'JetBrains Mono',monospace" font-size="9" fill="#3B887B" opacity="0.5" text-anchor="end" letter-spacing="0.08em">coolreadme.xyz</text>
 </svg>
