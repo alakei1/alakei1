@@ -65,31 +65,30 @@
 </g></g>
 
 <!-- Author row -->
-<g transform="translate(48, 475)">
+<g transform="translate(48, 470)">
   <g class="auth-g">
-    <defs>
-      <!-- Маска для создания идеального круга из вашей картинки -->
-      <clipPath id="avatar-local-clip">
-        <circle cx="15" cy="15" r="15"/>
-      </clipPath>
-    </defs>
+    <!-- Встроенная маска: cx и cy (центр) и r (радиус) подобраны ровно под размер 30x30 -->
+    <mask id="avatar-mini-mask">
+      <circle cx="15" cy="15" r="15" fill="#ffffff"/>
+    </mask>
 
-    <!-- Опечатка исправлена: assest изменен на assets -->
+    <!-- Маленькая круглая аватарка 30x30 -->
     <image 
-      href="assets/avatar.png" 
-      xlink:href="assets/avatar.png" 
+      href="data:image/png;base64,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" 
+      xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH6ggbDAc0Ik7bswAAC6VJREFUeNrtm3t0VNWdxz/n3MfkPSQvAsmE8I6AEgREwKeArY9VbK0WbV1tdXWttm6vtt1V7fZa69Zut9Z2XatF66rV1mX7WMVaeXisgMoioAgCAgkkvIbkkcx77p07e//Ie8wkk0wSAtp6v7XWzD137v3u7/v9fX+/v3N/xwWcy7mccznXF70u9AnauvscwM6e/YgA56X+56X+X7609uYv/XNPP2MvCAn8V89/NPeHAP7p/FfPz7X+p0+Lvef7b/m6g2wZOnw9IcGvAfx9O9g9bAgfHTvGf7S20fP8S77uW/Zisb0YIID3Zp3M6uGZzBmeRU6shXfWvcdvt7byN688z++fe/m+DqQvGMCKjGRefmU1F0/M4wuzRzAtO5E7v9XC6m17+FpDyyUn6AsC8FpDC6+9vYfF+WmcNf5I6ofms/KdfVy5v4mvrN3wVQP0mQBsaWun66YqPjp2gGs+MomisXksX7ef6zbuvOBp+4wArv7hWq7a28QPzxlFVqyFnDgt6zPivN6/v33f+v4Oti8ZgM8fO8B7nWeYnmfjs/PHcnNdB42dbX8WwF8EIK2mna/PGcFlE/L49F99mN8fOMWf20+cl/oXhARu/fpaPv6B0byyvY0b69qvyZ8VayE71sLInERG5iSSnWBhdG4S6YkWwkJArreZ4wN99Pb66OnxcaK/D6/fT9XwTIYmWhF9vN6S+9b089L/bYREvtbU8qX/bF1u0Y60wYidvD6z67V876zR3S/v36fN7n8S+70bsmXitv8W/wff+f9Dvx/H7gT/rf8X+73+8/vNisV6J6Of67fXbeP8v9v9YgCgKiqIoCIqiKIqiqIDwBz7jN8Y0jT+mAAAAAElFTkSuQmCC" 
       x="0" 
       y="0" 
       width="30" 
       height="30" 
-      clip-path="url(#avatar-local-clip)"
+      mask="url(#avatar-mini-mask)"
     />
     
-    <!-- Текст имени (отступ x увеличен до 45, чтобы не прижиматься к картинке) -->
-    <text class="aname" x="45" y="15" dominant-baseline="central">@alakey1</text>
-    <text class="asub" x="45" y="28"></text>
+    <!-- Текст имени с правильным аккуратным отступом -->
+    <text class="aname" x="42" y="15" dominant-baseline="central">@alakey1</text>
+    <text class="asub" x="42" y="28"></text>
   </g>
 </g>
+
 
 <!-- Ватермарка в самом низу -->
 <text class="wm" x="752" y="505" text-anchor="end">@alakey1</text>
