@@ -5,9 +5,7 @@
 <p align="center">
   <img src="assets/hero-banner.svg" width="780" alt="Alexey Lugachev" />
 </p>
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Dancing+Script&weight=400&size=32&pause=1000&color=DB8C7B&center=true&vCenter=true&width=780&height=70&background=EBD2CD&lines=Viam+supervadet+vadens" alt="Viam supervadet vadens" />
-</p>
+
 
 
 <p align="center">
