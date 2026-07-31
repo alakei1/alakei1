@@ -80,8 +80,8 @@
     <!-- Подзаголовок -->
     <text class="sub" x="400" y="136"
           font-family="'Inter', sans-serif" font-size="16" font-weight="500"
-          fill="rgba(244,244,245,0.8)" text-anchor="middle" letter-spacing="0.04em">Full-stack engineer · building in public</text>
+          fill="rgba(244,244,245,0.8)" text-anchor="middle" letter-spacing="0.04em">Backend | DevOps | ML Engineer</text>
   </g>
 
-  <text x="788" y="192" font-family="'Inter',sans-serif" font-size="9" fill="#f4f4f5" opacity="0.4" text-anchor="end" letter-spacing="0.08em">coolreadme.xyz</text>
+ 
 </svg>
