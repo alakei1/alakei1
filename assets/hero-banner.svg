@@ -6,7 +6,7 @@
       @keyframes fadeIn { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
       @keyframes waveMove { 0% { transform: translateX(0); } 100% { transform: translateX(-200px); } }
       @keyframes waveMove2 { 0% { transform: translateX(0); } 100% { transform: translateX(200px); } }
-      @keyframes pulse { 0%,100% { opacity: 0.55; } 50% { opacity: 0.85; } }
+      @keyframes pulse { 0%,100% { opacity: 0.7; } 50% { opacity: 1; } }
 
       .root  { animation: fadeIn 0.6s ease forwards; }
       .title { animation: fadeIn 0.7s ease 0.1s both; }
@@ -29,20 +29,20 @@
       </stop>
     </linearGradient>
 
-    <!-- Градиент для первой волны (использует тёмно-зелёный и кремовый) -->
+    <!-- Градиент для первой волны -->
     <linearGradient id="g2" x1="0%" y1="100%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#125446" stop-opacity="0.6">
+      <stop offset="0%" stop-color="#125446" stop-opacity="0.8">
         <animate attributeName="stop-color" values="#125446;#EBD2CD;#125446" dur="11s" repeatCount="indefinite"/>
       </stop>
-      <stop offset="100%" stop-color="#3B887B" stop-opacity="0.4">
+      <stop offset="100%" stop-color="#3B887B" stop-opacity="0.6">
         <animate attributeName="stop-color" values="#3B887B;#DB8C7B;#3B887B" dur="11s" repeatCount="indefinite"/>
       </stop>
     </linearGradient>
 
-    <!-- Затемняющий оверлей адаптирован под ваш глубокий цвет фона #112221 -->
+    <!-- Затемняющий оверлей -->
     <linearGradient id="fadeOverlay" x1="0%" y1="0%" x2="0%" y2="100%">
       <stop offset="0%" stop-color="#112221" stop-opacity="0"/>
-      <stop offset="100%" stop-color="#112221" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#112221" stop-opacity="0.5"/>
     </linearGradient>
 
     <clipPath id="card-clip">
@@ -54,34 +54,33 @@
     <!-- Базовый глубокий фон #112221 -->
     <rect width="800" height="200" fill="#112221"/>
     
-    <!-- Переливающийся градиент -->
-    <rect width="800" height="200" fill="url(#g1)" opacity="0.75"/>
+    <!-- Переливающийся градиент (сделан ярче) -->
+    <rect width="800" height="200" fill="url(#g1)" opacity="0.95"/>
 
-    <!-- Первая волна (плывёт влево) -->
+    <!-- Первая волна -->
     <g class="wave1 glow" style="transform-origin: center;">
       <path d="M -200 110 C 0 70, 200 150, 400 100 S 800 90, 1200 120 L 1200 200 L -200 200 Z"
-            fill="url(#g2)" opacity="0.8"/>
+            fill="url(#g2)" opacity="0.9"/>
     </g>
 
-    <!-- Вторая волна (плывёт вправо, подсвечена мягким #EBD2CD) -->
+    <!-- Вторая волна -->
     <g class="wave2" style="transform-origin: center;">
       <path d="M -200 140 C 100 100, 300 180, 500 130 S 900 150, 1300 110 L 1300 200 L -200 200 Z"
-            fill="#EBD2CD" opacity="0.25"/>
+            fill="#EBD2CD" opacity="0.4"/>
     </g>
 
-    <!-- Затемнение снизу для идеальной читаемости текста -->
+    <!-- Затемнение снизу -->
     <rect width="800" height="200" fill="url(#fadeOverlay)"/>
 
-    <!-- Заголовок -->
+    <!-- Заголовок (теперь в цвете палитры) -->
     <text class="title" x="400" y="96"
           font-family="'Inter', sans-serif" font-size="44" font-weight="900"
-          fill="#f4f4f5" text-anchor="middle" letter-spacing="-1.2">alaxey lugachev</text>
+          fill="#EBD2CD" text-anchor="middle" letter-spacing="-1.2">alaxey lugachev</text>
 
     <!-- Подзаголовок -->
     <text class="sub" x="400" y="136"
           font-family="'Inter', sans-serif" font-size="16" font-weight="500"
-          fill="rgba(244,244,245,0.8)" text-anchor="middle" letter-spacing="0.04em">Backend | DevOps | ML Engineer</text>
+          fill="#EBD2CD" text-anchor="middle" letter-spacing="0.04em">Backend | DevOps | ML Engineer</text>
   </g>
-
- 
 </svg>
+
