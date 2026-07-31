@@ -1,101 +1,64 @@
 <svg xmlns="http://w3.org" width="800" height="120" viewBox="0 0 800 120">
   <style>
-      @import url('https://googleapis.com');
       @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
-
       .root { animation: fadeIn 0.5s ease forwards; }
       @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
-
-      /* Базовые стили для текста: фиксируем положение по центру */
-      .txt {
-        font-family: 'JetBrains Mono', 'Courier New', monospace;
-        font-size: 24px;
-        font-weight: 500;
-        fill: #f4f4f5;
-        text-anchor: middle;
-        dominant-baseline: central;
-        opacity: 0;
-      }
-
-      /* Стили для курсора */
-      .cursor {
-        fill: #F87171;
-        opacity: 0;
-      }
-
-      /* АНИМАЦИЯ СТРОКИ 1 */
-      @keyframes animLine0 {
-        0%, 100% { opacity: 0; letter-spacing: -0.5em; }
-        0.5% { opacity: 1; letter-spacing: -0.5em; }
-        11.67%, 28.33% { opacity: 1; letter-spacing: 0em; }
-        31.67% { opacity: 0; letter-spacing: 0em; }
-      }
-      @keyframes curLine0 {
-        0%, 100% { opacity: 0; transform: translateX(0px); }
-        0.5% { opacity: 1; transform: translateX(-94px); }
-        11.67%, 28.33% { opacity: 1; transform: translateX(94px); }
-        31.67% { opacity: 0; transform: translateX(94px); }
-      }
-      .line0 { animation: animLine0 9s cubic-bezier(0.4, 0, 0.2, 1) infinite; }
-      .cur0 { animation: curLine0 9s cubic-bezier(0.4, 0, 0.2, 1) infinite; }
-
-      /* АНИМАЦИЯ СТРОКИ 2 */
-      @keyframes animLine1 {
-        0%, 33.33%, 100% { opacity: 0; letter-spacing: -0.5em; }
-        33.83% { opacity: 1; letter-spacing: -0.5em; }
-        45.00%, 61.67% { opacity: 1; letter-spacing: 0em; }
-        65.00% { opacity: 0; letter-spacing: 0em; }
-      }
-      @keyframes curLine1 {
-        0%, 33.33%, 100% { opacity: 0; transform: translateX(0px); }
-        33.83% { opacity: 1; transform: translateX(-86px); }
-        45.00%, 61.67% { opacity: 1; transform: translateX(86px); }
-        65.00% { opacity: 0; transform: translateX(86px); }
-      }
-      .line1 { animation: animLine1 9s cubic-bezier(0.4, 0, 0.2, 1) infinite; }
-      .cur1 { animation: curLine1 9s cubic-bezier(0.4, 0, 0.2, 1) infinite; }
-
-      /* АНИМАЦИЯ СТРОКИ 3 */
-      @keyframes animLine2 {
-        0%, 66.67%, 100% { opacity: 0; letter-spacing: -0.5em; }
-        67.17% { opacity: 1; letter-spacing: -0.5em; }
-        78.33%, 95.00% { opacity: 1; letter-spacing: 0em; }
-        98.33% { opacity: 0; letter-spacing: 0em; }
-      }
-      @keyframes curLine2 {
-        0%, 66.67%, 100% { opacity: 0; transform: translateX(0px); }
-        67.17% { opacity: 1; transform: translateX(-158px); }
-        78.33%, 95.00% { opacity: 1; transform: translateX(158px); }
-        98.33% { opacity: 0; transform: translateX(158px); }
-      }
-      .line2 { animation: animLine2 9s cubic-bezier(0.4, 0, 0.2, 1) infinite; }
-      .cur2 { animation: curLine2 9s cubic-bezier(0.4, 0, 0.2, 1) infinite; }
+      @keyframes blink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
+      .cursor { animation: blink 1s steps(2) infinite; fill: #F87171; }
   </style>
   
   <rect width="800" height="120" rx="12" fill="#030303" stroke="rgba(255,255,255,0.08)"/>
   
   <g class="root">
-    <!-- СТРОКА 1 -->
+    
+    <defs>
+      <clipPath id="c0">
+        <rect x="306" y="32" height="40" width="0">
+          <animate attributeName="x" values="400;400;306;306;400;400" keyTimes="0;0.0000;0.1167;0.2833;0.3167;1" dur="9s" repeatCount="indefinite"/>
+          <animate attributeName="width" values="0;0;188;188;0;0" keyTimes="0;0.0000;0.1167;0.2833;0.3167;1" dur="9s" repeatCount="indefinite"/>
+        </rect>
+      </clipPath>
+    </defs>
     <g>
-      <text x="400" y="60" class="txt line0">Hellow world!</text>
-      <rect x="400" y="46" width="3" height="28" class="cursor cur0" />
+      <text x="400" y="68" text-anchor="middle" font-family="monospace, Courier, sans-serif" font-size="24" font-weight="700" fill="#f4f4f5" clip-path="url(#c0)" opacity="0">Hellow world!<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.0000;0.1167;0.2833;0.3167;1" dur="9s" repeatCount="indefinite"/></text>
+      <rect class="cursor" x="306" y="42" width="3" height="28" opacity="0">
+        <animate attributeName="x" values="306;306;494;494;306;306" keyTimes="0;0.0000;0.1167;0.2833;0.3167;1" dur="9s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.0000;0.1167;0.2833;0.3167;1" dur="9s" repeatCount="indefinite"/>
+      </rect>
     </g>
 
-    <!-- СТРОКА 2 -->
+    <defs>
+      <clipPath id="c1">
+        <rect x="313" y="32" height="40" width="0">
+          <animate attributeName="x" values="400;400;313;313;400;400" keyTimes="0;0.3333;0.4500;0.6167;0.6500;1" dur="9s" repeatCount="indefinite"/>
+          <animate attributeName="width" values="0;0;174;174;0;0" keyTimes="0;0.3333;0.4500;0.6167;0.6500;1" dur="9s" repeatCount="indefinite"/>
+        </rect>
+      </clipPath>
+    </defs>
     <g>
-      <text x="400" y="60" class="txt line1">Open to work</text>
-      <rect x="400" y="46" width="3" height="28" class="cursor cur1" />
+      <text x="400" y="68" text-anchor="middle" font-family="monospace, Courier, sans-serif" font-size="24" font-weight="700" fill="#f4f4f5" clip-path="url(#c1)" opacity="0">Open to work<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.3333;0.4500;0.6167;0.6500;1" dur="9s" repeatCount="indefinite"/></text>
+      <rect class="cursor" x="313" y="42" width="3" height="28" opacity="0">
+        <animate attributeName="x" values="313;313;487;487;313;313" keyTimes="0;0.3333;0.4500;0.6167;0.6500;1" dur="9s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.3333;0.4500;0.6167;0.6500;1" dur="9s" repeatCount="indefinite"/>
+      </rect>
     </g>
 
-    <!-- СТРОКА 3 -->
+    <defs>
+      <clipPath id="c2">
+        <rect x="241" y="32" height="40" width="0">
+          <animate attributeName="x" values="400;400;241;241;400;400" keyTimes="0;0.6667;0.7833;0.9500;0.9833;1" dur="9s" repeatCount="indefinite"/>
+          <animate attributeName="width" values="0;0;318;318;0;0" keyTimes="0;0.6667;0.7833;0.9500;0.9833;1" dur="9s" repeatCount="indefinite"/>
+        </rect>
+      </clipPath>
+    </defs>
     <g>
-      <text x="400" y="60" class="txt line2">Viam supervadet vadens</text>
-      <rect x="400" y="46" width="3" height="28" class="cursor cur2" />
+      <text x="400" y="68" text-anchor="middle" font-family="monospace, Courier, sans-serif" font-size="24" font-weight="700" fill="#f4f4f5" clip-path="url(#c2)" opacity="0">Viam supervadet vadens<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.6667;0.7833;0.9500;0.9833;1" dur="9s" repeatCount="indefinite"/></text>
+      <rect class="cursor" x="241" y="42" width="3" height="28" opacity="0">
+        <animate attributeName="x" values="241;241;559;559;241;241" keyTimes="0;0.6667;0.7833;0.9500;0.9833;1" dur="9s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.6667;0.7833;0.9500;0.9833;1" dur="9s" repeatCount="indefinite"/>
+      </rect>
     </g>
+
   </g>
-
-  <text x="788" y="112" font-family="'JetBrains Mono',monospace" font-size="9" fill="#f4f4f5" opacity="0.35" text-anchor="end" letter-spacing="0.08em">@alakei1</text>
-</svg>
-
-  <text x="788" y="112" font-family="'JetBrains Mono',monospace" font-size="9" fill="#f4f4f5" opacity="0.35" text-anchor="end" letter-spacing="0.08em">@alakei1</text>
+  <text x="788" y="112" font-family="monospace" font-size="9" fill="#f4f4f5" opacity="0.35" text-anchor="end" letter-spacing="0.08em">@alakei1</text>
 </svg>
