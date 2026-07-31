@@ -65,17 +65,30 @@
 </g></g>
 
 <!-- Author row: Координата Y=475 идеально опускает блок ПОД английский текст -->
+<!-- Author row -->
 <g transform="translate(48, 475)">
   <g class="auth-g">
-    <!-- Круглая подложка иконки (В цвет верхнего акцента #DB8C7B) -->
-    <circle cx="15" cy="15" r="15" fill="#DB8C7B"/>
+    <defs>
+      <!-- Маска для создания идеального круга из вашей картинки -->
+      <clipPath id="avatar-local-clip">
+        <circle cx="15" cy="15" r="15"/>
+      </clipPath>
+    </defs>
+
+    <!-- Ваша аватарка, подтянутая из репозитория -->
+    <!-- Если вы положили её в папку assets, измените путь на "assets/avatar.png" -->
+    <image 
+      href="avatar.png" 
+      xlink:href="avatar.png" 
+      x="0" 
+      y="0" 
+      width="30" 
+      height="30" 
+      clip-path="url(#avatar-local-clip)"
+    />
     
-    <!-- Силуэт человечка внутри круга -->
-    <circle cx="15" cy="11" r="5" fill="#112221"/>
-    <path d="M7,24 C7,20.5 10.5,18.5 15,18.5 C19.5,18.5 23,20.5 23,24 Z" fill="#112221"/>
-    
-    <!-- Текст имени с вашим оригинальным классом .aname (шрифты подгрузятся из стилей) -->
-    <text class="aname" x="42" y="15" dominant-baseline="central">Alexsey Luggachev</text>
+    <!-- Текст имени -->
+    <text class="aname" x="42" y="15" dominant-baseline="central">@alakey1</text>
     <text class="asub" x="42" y="28"></text>
   </g>
 </g>
