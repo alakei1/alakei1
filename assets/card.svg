@@ -78,8 +78,8 @@
     <!-- Ваша аватарка, подтянутая из репозитория -->
     <!-- Если вы положили её в папку assets, измените путь на "assets/avatar.png" -->
     <image 
-      href="avatar.png" 
-      xlink:href="avatar.png" 
+      href="assest/avatar.png" 
+      xlink:href="assest/avatar.png" 
       x="0" 
       y="0" 
       width="30" 
