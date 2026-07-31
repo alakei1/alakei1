@@ -1,6 +1,5 @@
-
-<!-- Увеличиваем общую высоту до 560, чтобы нижний блок не обрезался -->
-<svg width="800" height="540" viewBox="0 0 800 540" xmlns="http://www.w3.org/2000/svg"
+<!-- Увеличена общая высота до 540, тег корректно закрыт скобкой > -->
+<svg width="800" height="540" viewBox="0 0 800 540" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://w3.org">
 
 <defs>
   <style>
@@ -65,36 +64,24 @@
   <text class="excpt" x="0" y="256">I fully understand the logic behind every single line of code.</text>
 </g></g>
 
-<!-- Author row -->
-<g transform="translate(48, 410)">
+<!-- Author row: Координата Y=475 идеально опускает блок ПОД английский текст -->
+<g transform="translate(48, 475)">
   <g class="auth-g">
-    <defs>
-      <!-- Маска для идеального круга -->
-      <clipPath id="avatar-clip-final">
-        <circle cx="15" cy="15" r="15"/>
-      </clipPath>
-    </defs>
-
-    <!-- Ваша реальная аватарка в формате Base64 (работает везде, включая GitHub README) -->
-<!-- Сдвиг transform="translate(48, 450)" опускает блок ниже английского текста -->
-<g transform="translate(48, 450)">
-  <g class="auth-g">
-    <!-- Круглая подложка иконки (вместо маски) -->
-    <circle cx="15" cy="15" r="15" fill="#388bfd"/>
+    <!-- Круглая подложка иконки (В цвет верхнего акцента #DB8C7B) -->
+    <circle cx="15" cy="15" r="15" fill="#DB8C7B"/>
     
     <!-- Силуэт человечка внутри круга -->
-    <circle cx="15" cy="11" r="5.5" fill="#ffffff"/>
-    <path d="M7,25 C7,21 10.5,18 15,18 C19.5,18 23,21 23,25 Z" fill="#ffffff"/>
+    <circle cx="15" cy="11" r="5" fill="#112221"/>
+    <path d="M7,24 C7,20.5 10.5,18.5 15,18.5 C19.5,18.5 23,20.5 23,24 Z" fill="#112221"/>
     
-    <!-- Текст имени -->
-    <text class="aname" x="42" y="15" dominant-baseline="central" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="600">Alexsey Luggachev</text>
+    <!-- Текст имени с вашим оригинальным классом .aname (шрифты подгрузятся из стилей) -->
+    <text class="aname" x="42" y="15" dominant-baseline="central">Alexsey Luggachev</text>
     <text class="asub" x="42" y="28"></text>
   </g>
 </g>
 
-
-
-
-<text class="wm" x="786" y="532" text-anchor="end">@alakey1</text>
+<!-- Ватермарка в самом низу -->
+<text class="wm" x="752" y="505" text-anchor="end">@alakey1</text>
 </svg>
+
 
