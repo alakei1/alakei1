@@ -53,9 +53,9 @@
 <!-- Author row -->
 <g transform="translate(48,372)"><g class="auth-g">
   <circle cx="15" cy="0" r="15" fill="#E8E4DD"/>
-  <text x="15" y="5" text-anchor="middle" font-family="Inter,sans-serif" font-size="13" font-weight="700" fill="#555">Y</text>
-  <text class="aname" x="38" y="-4">yerdaulet-damir</text>
-  <text class="asub" x="38" y="13">Published on GitHub README</text>
+  <text x="15" y="5" text-anchor="middle" font-family="Inter,sans-serif" font-size="13" font-weight="700" fill="#555">A</text>
+  <text class="aname" x="38" y="-4">Alexsey Luggachev</text>
+  <text class="asub" x="38" y="13"></text>
 </g></g>
 
 <text class="wm" x="786" y="412" text-anchor="end">coolreadme.xyz</text>
