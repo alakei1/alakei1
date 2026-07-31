@@ -1,4 +1,6 @@
 <svg width="800" height="540" viewBox="0 0 800 540" xmlns="http://www.w3.org/2000/svg">
+<svg xmlns="http://w3.org" xmlns:xlink="http://w3.org" width="800" height="520" viewBox="0 0 800 520">
+
 <defs>
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&amp;family=JetBrains+Mono:wght@400;700&amp;family=Lora:wght@700&amp;display=swap');
