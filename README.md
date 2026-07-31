@@ -6,26 +6,35 @@
   <img src="assets/hero-banner.svg" width="780" alt="Alexey Lugachev" />
 </p>
 
-$$ \large\color{#3B887B}\rule{780pt}{2pt} $$
+<p align="center">
+  <img src="data:image/svg+xml,<svg xmlns='http://w3.org' width='780' height='3'><rect width='100%' height='100%' fill='%233B887B'/></svg>" width="780" height="3" alt="divider" />
+</p>
+
+
 
 <p align="center">
-  <a href="https://t.me">
-    <img src="https://shields.io" />
+  <a href="https://t.me/alakei4">
+    <img src="https://img.shields.io/badge/Telegram-@alakei4-3B887B?style=for-the-badge&logo=telegram&logoColor=white&labelColor=EBD2CD&color=3B887B&borderRadius=20" />
   </a>
   &nbsp;&nbsp;
   <a href="mailto:lugachev70@gmail.com">
-    <img src="https://shields.io" />
+    <img src="https://img.shields.io/badge/Email-lugachev70%40gmail.com-DB8C7B?style=for-the-badge&logo=gmail&logoColor=white&labelColor=EBD2CD&color=DB8C7B&borderRadius=20" />
   </a>
 </p>
+<p align="center">
+  <img src="data:image/svg+xml,<svg xmlns='http://w3.org' width='780' height='3'><rect width='100%' height='100%' fill='%233B887B'/></svg>" width="780" height="3" alt="divider" />
+</p>
 
-$$ \large\color{#3B887B}\rule{780pt}{2pt} $$
 
 <p align="center">
   <img src="assets/typing.svg" width="780" alt="Alexey Lugachev" />
 </p>
 
-$$ \large\color{#3B887B}\rule{780pt}{2pt} $$
+<p align="center">
+  <img src="data:image/svg+xml,<svg xmlns='http://w3.org' width='780' height='3'><rect width='100%' height='100%' fill='%233B887B'/></svg>" width="780" height="3" alt="divider" />
+</p>
 
+<p align="center">
   <!-- Ряд 1: Языки + Фреймворки -->
   <img src="https://img.shields.io/badge/Python-125446?style=for-the-badge&logo=python&logoColor=white&labelColor=EBD2CD&color=125446" />
   <img src="https://img.shields.io/badge/FastAPI-3B887B?style=for-the-badge&logo=fastapi&logoColor=white&labelColor=EBD2CD&color=3B887B" />
@@ -52,7 +61,5 @@ $$ \large\color{#3B887B}\rule{780pt}{2pt} $$
 <p align="center">
   <img src="assets/card.svg" />
 </p>
-
-
 
 
