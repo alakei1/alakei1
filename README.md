@@ -48,7 +48,9 @@
   <img src="https://img.shields.io/badge/NumPy-112221?style=for-the-badge&logo=numpy&logoColor=white&labelColor=EBD2CD&color=112221" />
 </p>
 
-
+<p align="center">
+  <img src="assets/card.svg" />
+</p>
 
 
 
