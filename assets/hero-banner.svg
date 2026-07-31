@@ -6,7 +6,7 @@
       @keyframes fadeIn { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
       @keyframes waveMove { 0% { transform: translateX(0); } 100% { transform: translateX(-200px); } }
       @keyframes waveMove2 { 0% { transform: translateX(0); } 100% { transform: translateX(200px); } }
-      @keyframes pulse { 0%,100% { opacity: 0.6; } 50% { opacity: 0.95; } }
+      @keyframes pulse { 0%,100% { opacity: 0.55; } 50% { opacity: 0.85; } }
 
       .root  { animation: fadeIn 0.6s ease forwards; }
       .title { animation: fadeIn 0.7s ease 0.1s both; }
@@ -16,33 +16,33 @@
       .glow  { animation: pulse 4s ease-in-out infinite; }
     </style>
 
-    <!-- Переливающийся глубокий изумрудный градиент -->
+    <!-- Изумрудный анимированный градиент фона -->
     <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#125446">
-        <animate attributeName="stop-color" values="#125446;#3B887B;#112221;#125446" dur="8s" repeatCount="indefinite"/>
+        <animate attributeName="stop-color" values="#125446;#3B887B;#112221;#125446" dur="9s" repeatCount="indefinite"/>
       </stop>
       <stop offset="50%" stop-color="#3B887B">
-        <animate attributeName="stop-color" values="#3B887B;#112221;#125446;#3B887B" dur="8s" repeatCount="indefinite"/>
+        <animate attributeName="stop-color" values="#3B887B;#112221;#125446;#3B887B" dur="9s" repeatCount="indefinite"/>
       </stop>
       <stop offset="100%" stop-color="#112221">
-        <animate attributeName="stop-color" values="#112221;#125446;#3B887B;#112221" dur="8s" repeatCount="indefinite"/>
+        <animate attributeName="stop-color" values="#112221;#125446;#3B887B;#112221" dur="9s" repeatCount="indefinite"/>
       </stop>
     </linearGradient>
 
-    <!-- Насыщенный изумрудно-коралловый градиент для первой волны -->
+    <!-- Плотный градиент для первой волны -->
     <linearGradient id="g2" x1="0%" y1="100%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#125446" stop-opacity="0.9">
-        <animate attributeName="stop-color" values="#125446;#3B887B;#125446" dur="10s" repeatCount="indefinite"/>
+      <stop offset="0%" stop-color="#125446" stop-opacity="0.6">
+        <animate attributeName="stop-color" values="#125446;#3B887B;#125446" dur="11s" repeatCount="indefinite"/>
       </stop>
-      <stop offset="100%" stop-color="#3B887B" stop-opacity="0.7">
-        <animate attributeName="stop-color" values="#3B887B;#DB8C7B;#3B887B" dur="10s" repeatCount="indefinite"/>
+      <stop offset="100%" stop-color="#3B887B" stop-opacity="0.4">
+        <animate attributeName="stop-color" values="#3B887B;#DB8C7B;#3B887B" dur="11s" repeatCount="indefinite"/>
       </stop>
     </linearGradient>
 
-    <!-- Затемняющий оверлей в цвет ультра-темного изумруда -->
+    <!-- Затемняющий оверлей -->
     <linearGradient id="fadeOverlay" x1="0%" y1="0%" x2="0%" y2="100%">
       <stop offset="0%" stop-color="#112221" stop-opacity="0"/>
-      <stop offset="100%" stop-color="#112221" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#112221" stop-opacity="0.65"/>
     </linearGradient>
 
     <clipPath id="card-clip">
@@ -51,28 +51,28 @@
   </defs>
 
   <g class="root" clip-path="url(#card-clip)">
-    <!-- Глубокая темная изумрудная база -->
+    <!-- Глубокий фоновый цвет -->
     <rect width="800" height="200" fill="#112221"/>
     
-    <!-- Переливающийся изумрудный слой -->
-    <rect width="800" height="200" fill="url(#g1)" opacity="0.85"/>
+    <!-- Переливающийся градиент (исходная прозрачность 0.75) -->
+    <rect width="800" height="200" fill="url(#g1)" opacity="0.75"/>
 
-    <!-- Акцентная плотная изумрудная волна -->
+    <!-- Первая волна -->
     <g class="wave1 glow" style="transform-origin: center;">
       <path d="M -200 110 C 0 70, 200 150, 400 100 S 800 90, 1200 120 L 1200 200 L -200 200 Z"
-            fill="url(#g2)" opacity="0.95"/>
+            fill="url(#g2)" opacity="0.8"/>
     </g>
 
-    <!-- Вторая мягкая контрастная волна -->
+    <!-- Вторая волна -->
     <g class="wave2" style="transform-origin: center;">
       <path d="M -200 140 C 100 100, 300 180, 500 130 S 900 150, 1300 110 L 1300 200 L -200 200 Z"
             fill="#EBD2CD" opacity="0.25"/>
     </g>
 
-    <!-- Затемнение снизу для глубины -->
+    <!-- Затемнение снизу -->
     <rect width="800" height="200" fill="url(#fadeOverlay)"/>
 
-    <!-- Контрастный заголовок -->
+    <!-- Заголовок -->
     <text class="title" x="400" y="96"
           font-family="'Inter', sans-serif" font-size="44" font-weight="900"
           fill="#EBD2CD" text-anchor="middle" letter-spacing="-1.2">alaxey lugachev</text>
@@ -80,7 +80,7 @@
     <!-- Подзаголовок -->
     <text class="sub" x="400" y="136"
           font-family="'Inter', sans-serif" font-size="16" font-weight="500"
-          fill="#EBD2CD" text-anchor="middle" letter-spacing="0.04em">Backend | DevOps | ML Engineer</text>
+          fill="rgba(235,210,205,0.8)" text-anchor="middle" letter-spacing="0.04em">Backend | DevOps | ML Engineer</text>
   </g>
 </svg>
 
