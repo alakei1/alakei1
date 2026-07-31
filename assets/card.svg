@@ -68,20 +68,26 @@
     <!-- Маска для скругления аватарки -->
     <defs>
       <clipPath id="avatar-clip">
-        <!-- Центр круга (cx, cy) должен быть ровно посередине изображения -->
         <circle cx="15" cy="15" r="15"/>
       </clipPath>
     </defs>
 
-    <!-- Ваша реальная аватарка из GitHub -->
-    <!-- Изменены y="-15" на y="0" для синхронизации с маской -->
-    <image href="https://avatars.githubusercontent.com/u/151620045?v=4&size=64" x="0" y="0" width="30" height="30" clip-path="url(#avatar-clip)"/>
+    <!-- Изображение, закодированное в Base64 (работает на GitHub) -->
+    <image 
+      href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAAsTAAALEwEAmpwYAAADf0lEQVR4nO2az2sTQRDFX8SuhYpYvYp486DevepRxKNo8eZFPYm9iBcv9mYv3vSo6Fm9iAd7EwX9I7S09Sba7G6S7O7MToftwscHwuwk877ZmTfJZmYURVEURVEURVEURVEURVEUxX9AnInuEwNEnInmif0p7uN8XWbLpImBiYwYIeZ7MvGEmCYm/UvW39NExEBiO34F8C+CgB8Mv39MvCI6R6xG9fT77Zis9MvXm8S6vLAnNf8V26p6bN9RbygW6r9XvYfS89vV7Iit98F1p8W62Gg3/y2yUv9m9R6U789v6Vv27mK9A6F7D2K6Gf15X69G8R0M9w6EvG931X+v9b1U73CExBmxM88YFwD3Iswv4gYxR8xehE8vH07wXzD9xUAnN6p3ZESm/vP5wF1Y3vP578U3HBG/2GghYmye4InY7L+n+D+Y9W26B8Ruj9id+C/X3/N8D8KkOfV9xPZZH+vV/6D1HYSZpXonM9G7EonN86P8Bf0V89pLInY6v/87Yrtz6rvH+o7m1u+b2O/5VnKOfwUInonHwOfpWkM99xLzFwDfeW9fD9d65v3f5/eXpY+XmG7e2x96fTf99YrePxFv9f5L8S3wO0VInIkxIvI8t+bZkRz/T8Se+CkiBnoHwufvFvX7XvWbI8W9Xybe6P0b6vP7Yv1f4O/1U9D5Z57YGej7O9Ybe3039Of3I+f7G+PPe3vE7njW69j7i9XbH77+E6+b7f2R6r97/b5b/Zsc7yR+Hl7/N3fX1pWfB/5M3F8pYvGfCH7fIubvRojfP/X7U/p9r7E9Edfb0W/X9ff5vU9E6P/Z7/O+QYh5iR+m+O25ff2e8v56id9+Y3skvofn9gP7+36S4veKkIhYf7H5Z8RP6w8fIubyYjO/f73YvLcmv6+5fbyf2B8wN0/s/hDzn9b8/P5WfGv++D83+XvP8e9FSMz00zTfE3H9A/0V8V2M5m7E9r6IvXni+nN/hK++3KjuY7G+F8f69N/35tfvX8Q8v+bW/X+BvwP+bIrfT+zvP3fM9/6o6E8VvX9O7I78C3+D73252E9rLp7v/bH8vv3h2u+L9f9n4u/86p6fS8T+99D4P6Xf9xq/95WImZ6U78mU9vX3xWbyfD0S08/t70v8Pl6i9+I/WvxeXmLXzftL9ffEvvA6fD3F5vfEvvA9vMRvP9F/Efv7e9Xve71+gL8gfqeY7/39uD0ivvNn+XvH/N7b0/U9vETvxfVw8/ZEXMffw/b++onp5vbv5X/0/N4v9+b+ErvvWb+H+/sS/wf8Wb8e7i/+R4mfx8R0M9Ybe/f8fP8O/Nlz+2K6GePPe3tEbHdE9F4cu+b9vETvE/v7InY7PzGx8/039udZ/Cdiu974fVfE/j6vP8f8N/XfS/wX/Fn/29mP6Tf60+v/gX+R/XN74s9f9/p/vH/YntivYw9E/A/8if76I/bY36/r7/N7Iv7X9fN7n8S+70bsmXitv8W/wff+f9Dvx/H7gT/rf8X+73+8/vNisV6J6Of67fXbeP8v9v9YgCgKiqIoCIqiKIqiqIDwBz7jN8Y0jT+mAAAAAElFTkSuQmCC"
+      x="0" 
+      y="0" 
+      width="30" 
+      height="30" 
+      clip-path="url(#avatar-clip)"
+    />
     
-    <!-- Текст выровнен по вертикали относительно аватарки 30x30 -->
-    <text class="aname" x="42" y="14">Alexsey Luggachev</text>
+    <!-- Текст с выравниванием по вертикали -->
+    <text class="aname" x="42" y="15" dominant-baseline="central" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14">Alexsey Luggachev</text>
     <text class="asub" x="42" y="28"></text>
   </g>
 </g>
+
 
 
 
