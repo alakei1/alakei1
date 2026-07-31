@@ -73,7 +73,7 @@
   </defs>
 
   <!-- Ваша реальная аватарка из GitHub -->
-  <image href="https://github.com" x="0" y="-15" width="30" height="30" clip-path="url(#avatar-clip)"/>
+  <image href="https://avatars.githubusercontent.com/u/151620045?v=4&size=64" x="0" y="-15" width="30" height="30" clip-path="url(#avatar-clip)"/>
   
   <text class="aname" x="38" y="-4">Alexsey Luggachev</text>
   <text class="asub" x="38" y="13"></text>
