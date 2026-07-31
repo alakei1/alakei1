@@ -90,7 +90,7 @@
       </clipPath>
     </defs>
     <g>
-      <text x="40" y="68" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="24" font-weight="500" fill="#f4f4f5" clip-path="url(#clip-2)" opacity="0">Based in Almaty<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.6667;0.7833;0.9500;0.9833;1" dur="9s" repeatCount="indefinite"/></text>
+      <text x="40" y="68" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="24" font-weight="500" fill="#f4f4f5" clip-path="url(#clip-2)" opacity="0">Viam supervadet vadens<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.6667;0.7833;0.9500;0.9833;1" dur="9s" repeatCount="indefinite"/></text>
       <rect class="cursor" x="0" y="42" width="3" height="28" opacity="0">
         <animate attributeName="x" values="40;40;256;256;40;40" keyTimes="0;0.6667;0.7833;0.9500;0.9833;1" dur="9s" repeatCount="indefinite"/>
         <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.6667;0.7833;0.9500;0.9833;1" dur="9s" repeatCount="indefinite"/>
