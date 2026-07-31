@@ -6,7 +6,7 @@
   <img src="assets/hero-banner.svg" width="780" alt="Alexey Lugachev" />
 </p>
 
-<table width="100%"><tr><td bgcolor="#3B887B" style="padding:1px;"></td></tr></table>
+$$ \large\color{#3B887B}\rule{780pt}{2pt} $$
 
 <p align="center">
   <a href="https://t.me">
@@ -18,16 +18,14 @@
   </a>
 </p>
 
-<table width="100%"><tr><td bgcolor="#3B887B" style="padding:1px;"></td></tr></table>
+$$ \large\color{#3B887B}\rule{780pt}{2pt} $$
 
 <p align="center">
   <img src="assets/typing.svg" width="780" alt="Alexey Lugachev" />
 </p>
 
-<table width="100%"><tr><td bgcolor="#3B887B" style="padding:1px;"></td></tr></table>
+$$ \large\color{#3B887B}\rule{780pt}{2pt} $$
 
-
-<p align="center">
   <!-- Ряд 1: Языки + Фреймворки -->
   <img src="https://img.shields.io/badge/Python-125446?style=for-the-badge&logo=python&logoColor=white&labelColor=EBD2CD&color=125446" />
   <img src="https://img.shields.io/badge/FastAPI-3B887B?style=for-the-badge&logo=fastapi&logoColor=white&labelColor=EBD2CD&color=3B887B" />
