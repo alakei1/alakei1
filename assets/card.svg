@@ -78,24 +78,14 @@
 <!-- Сдвиг transform="translate(48, 450)" опускает блок ниже английского текста -->
 <g transform="translate(48, 450)">
   <g class="auth-g">
-    <defs>
-      <!-- Маска для создания идеально круглой подложки -->
-      <clipPath id="avatar-clip-vector">
-        <circle cx="15" cy="15" r="15"/>
-      </clipPath>
-    </defs>
-
-    <!-- Векторная аватарка (работает на GitHub со 100% гарантией) -->
-    <g clip-path="url(#avatar-clip-vector)">
-      <!-- Фон аватарки (цветной круг) -->
-      <circle cx="15" cy="15" r="15" fill="#388bfd"/>
-      <!-- Силуэт головы -->
-      <circle cx="15" cy="11" r="5.5" fill="#ffffff"/>
-      <!-- Силуэт плеч -->
-      <path d="M15,19 C9.5,19 7,22.5 7,26 L23,26 C23,22.5 20.5,19 15,19 Z" fill="#ffffff"/>
-    </g>
+    <!-- Круглая подложка иконки (вместо маски) -->
+    <circle cx="15" cy="15" r="15" fill="#388bfd"/>
     
-    <!-- Текст имени с правильными отступами и безопасными шрифтами -->
+    <!-- Силуэт человечка внутри круга -->
+    <circle cx="15" cy="11" r="5.5" fill="#ffffff"/>
+    <path d="M7,25 C7,21 10.5,18 15,18 C19.5,18 23,21 23,25 Z" fill="#ffffff"/>
+    
+    <!-- Текст имени -->
     <text class="aname" x="42" y="15" dominant-baseline="central" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="600">Alexsey Luggachev</text>
     <text class="asub" x="42" y="28"></text>
   </g>
