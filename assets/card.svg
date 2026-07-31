@@ -1,8 +1,8 @@
-<svg width="800" height="540" viewBox="0 0 800 540" xmlns="http://w3.org">
+<svg width="800" height="540" viewBox="0 0 800 540" xmlns="http://www.w3.org/2000/svg">
 <defs>
   <style>
-    @import url('https://googleapis.com');
-@keyframes fadeUp { from{opacity:0;transform:translateY(8px)} to{opacity:1;transform:translateY(0)} }
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&amp;family=JetBrains+Mono:wght@400;700&amp;family=Lora:wght@700&amp;display=swap');
+    @keyframes fadeUp { from{opacity:0;transform:translateY(8px)} to{opacity:1;transform:translateY(0)} }
 
     .tag    {font:700 10px/1 'JetBrains Mono',monospace;fill:#EBD2CD;letter-spacing:.18em}
     .title  {font:700 34px/1.2 'Lora',serif;fill:#EBD2CD}
@@ -17,8 +17,10 @@
   </style>
 </defs>
 
+<!-- Основной темный изумрудный фон -->
 <rect width="800" height="540" fill="#112221"/>
-<!-- Top accent line fills left-to-right -->
+
+<!-- Top accent line fills left-to-right (Коралловый акцент) -->
 <rect x="0" y="0" width="0" height="4" fill="#DB8C7B">
   <animate attributeName="width" from="0" to="800" dur=".5s" fill="freeze"/>
 </rect>
@@ -26,7 +28,7 @@
 <!-- Tag pill -->
 <g transform="translate(48,44)"><g class="tag-g">
   <rect x="0" y="-20" width="86.4" height="26" rx="4" fill="#125446"/>
-  <text class="tag" x="14" y="3">About Me</text>
+  <text class="tag" x="14" y="3">Tutorial</text>
 </g></g>
 
 <!-- Title -->
@@ -42,14 +44,17 @@
 
 <!-- Excerpt -->
 <g transform="translate(48,185)"><g class="exc-g">
+  <!-- Русский блок текста -->
   <text class="excpt" x="0" y="0">Мне нравится разбираться в том, как устроены современные IT-решения, и создавать</text>
   <text class="excpt" x="0" y="24">новые технологии. Мой главный принцип — непрерывное развитие, поэтому я учусь</text>
   <text class="excpt" x="0" y="48">и становлюсь лучше каждый день. Я не просто зазубриваю инструменты, а глубоко</text>
   <text class="excpt" x="0" y="72">погружаюсь в суть: мне важно досконально изучить технологию и понимать, как</text>
   <text class="excpt" x="0" y="96">работает каждая строчка кода.</text>
   
+  <!-- Маленькая горизонтальная линия-разделение -->
   <line x1="0" y1="126" x2="100" y2="126" stroke="#3B887B" stroke-width="1" opacity="0.6"/>
   
+  <!-- Английский блок текста -->
   <text class="excpt" x="0" y="160" font-weight="700">About Me:</text>
   <text class="excpt" x="0" y="184">I am passionate about exploring how technologies work and building innovative solutions.</text>
   <text class="excpt" x="0" y="208">Driven by continuous growth, I dedicate time every day to learning and refining my skills.</text>
@@ -67,3 +72,4 @@
 
 <text class="wm" x="786" y="532" text-anchor="end">@alakey1</text>
 </svg>
+
