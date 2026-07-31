@@ -1,154 +1,128 @@
-
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="120" viewBox="0 0 800 120">
+<svg xmlns="http://w3.org" width="800" height="120" viewBox="0 0 800 120">
   <style>
-      @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;700&amp;display=swap');
-      @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+    @import url('https://googleapis.com');
+    @media (prefers-reduced-motion: reduce) {
+      .root { animation: none !important; }
+    }
+    :root {
+      animation: fadeIn 0.5s ease forwards;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    @keyframes blink {
+      0%, 49% { opacity: 1; }
+      50%, 100% { opacity: 0; }
+    }
+    .cursor {
+      animation: blink 1s steps(2) infinite;
+      fill: #DB8C7B;
+    }
+  </style>
 
-      .root { animation: fadeIn 0.5s ease forwards; }
+  <!-- Фон и рамка -->
+  <rect width="800" height="120" rx="12" fill="#112221" stroke="#125446" stroke-width="2"/>
 
-      @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
-      @keyframes blink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
-      .cursor { animation: blink 1s steps(2) infinite; fill: #00FF88; }
-
-      
-          @keyframes typeLine0 {
-            0% { width: 0; opacity: 0; }
-            0.00% { width: 0; opacity: 0; }
-            0.50% { width: 0; opacity: 1; }
-            7.00% { width: 100%; opacity: 1; }
-            17.00% { width: 100%; opacity: 1; }
-            19.00% { width: 100%; opacity: 0; }
-            20.00% { width: 0; opacity: 0; }
-            100% { width: 0; opacity: 0; }
-          }
-          .line0 { animation: typeLine0 15s steps(40, end) infinite; }
-          
-
-          @keyframes typeLine1 {
-            0% { width: 0; opacity: 0; }
-            20.00% { width: 0; opacity: 0; }
-            20.50% { width: 0; opacity: 1; }
-            27.00% { width: 100%; opacity: 1; }
-            37.00% { width: 100%; opacity: 1; }
-            39.00% { width: 100%; opacity: 0; }
-            40.00% { width: 0; opacity: 0; }
-            100% { width: 0; opacity: 0; }
-          }
-          .line1 { animation: typeLine1 15s steps(40, end) infinite; }
-          
-
-          @keyframes typeLine2 {
-            0% { width: 0; opacity: 0; }
-            40.00% { width: 0; opacity: 0; }
-            40.50% { width: 0; opacity: 1; }
-            47.00% { width: 100%; opacity: 1; }
-            57.00% { width: 100%; opacity: 1; }
-            59.00% { width: 100%; opacity: 0; }
-            60.00% { width: 0; opacity: 0; }
-            100% { width: 0; opacity: 0; }
-          }
-          .line2 { animation: typeLine2 15s steps(40, end) infinite; }
-          
-
-          @keyframes typeLine3 {
-            0% { width: 0; opacity: 0; }
-            60.00% { width: 0; opacity: 0; }
-            60.50% { width: 0; opacity: 1; }
-            67.00% { width: 100%; opacity: 1; }
-            77.00% { width: 100%; opacity: 1; }
-            79.00% { width: 100%; opacity: 0; }
-            80.00% { width: 0; opacity: 0; }
-            100% { width: 0; opacity: 0; }
-          }
-          .line3 { animation: typeLine3 15s steps(40, end) infinite; }
-          
-
-          @keyframes typeLine4 {
-            0% { width: 0; opacity: 0; }
-            80.00% { width: 0; opacity: 0; }
-            80.50% { width: 0; opacity: 1; }
-            87.00% { width: 100%; opacity: 1; }
-            97.00% { width: 100%; opacity: 1; }
-            99.00% { width: 100%; opacity: 0; }
-            100.00% { width: 0; opacity: 0; }
-            100% { width: 0; opacity: 0; }
-          }
-          .line4 { animation: typeLine4 15s steps(40, end) infinite; }
-          
-    </style>
-  <rect width="800" height="120" rx="12" fill="#030303" stroke="rgba(255,255,255,0.08)"/>
+  <!-- Линия 0: Welcome to my GitHub profile -->
   <g class="root">
-    
     <defs>
-      <clipPath id="clip-0">
+      <clipPath id="clip_0">
         <rect x="40" y="32" height="40" width="0">
           <animate attributeName="width" values="0;0;460.8;460.8;0;0" keyTimes="0;0.0000;0.0700;0.1700;0.1900;1" dur="15s" repeatCount="indefinite"/>
         </rect>
       </clipPath>
     </defs>
     <g>
-      <text x="40" y="68" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="24" font-weight="500" fill="#f4f4f5" clip-path="url(#clip-0)" opacity="0">Welcome to my GitHub profile! 👋<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.0000;0.0700;0.1700;0.1900;1" dur="15s" repeatCount="indefinite"/></text>
-      <rect class="cursor" x="0" y="42" width="3" height="28" opacity="0">
+      <text x="40" y="68" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="24" font-weight="500" fill="#EBD2CD" clip-path="url(#clip_0)" opacity="0">
+        Welcome to my GitHub profile
+        <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.0000;0.0700;0.1700;0.1900;1" dur="15s" repeatCount="indefinite"/>
+      </text>
+      <rect class="cursor" x="0" y="44" width="3" height="28" opacity="0">
         <animate attributeName="x" values="40;40;500.8;500.8;40;40" keyTimes="0;0.0000;0.0700;0.1700;0.1900;1" dur="15s" repeatCount="indefinite"/>
         <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.0000;0.0700;0.1700;0.1900;1" dur="15s" repeatCount="indefinite"/>
       </rect>
     </g>
+  </g>
 
+  <!-- Линия 1: Добро пожаловать в мой GitHub -->
+  <g class="root">
     <defs>
-      <clipPath id="clip-1">
+      <clipPath id="clip_1">
         <rect x="40" y="32" height="40" width="0">
           <animate attributeName="width" values="0;0;475.2;475.2;0;0" keyTimes="0;0.2000;0.2700;0.3700;0.3900;1" dur="15s" repeatCount="indefinite"/>
         </rect>
       </clipPath>
     </defs>
     <g>
-      <text x="40" y="68" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="24" font-weight="500" fill="#f4f4f5" clip-path="url(#clip-1)" opacity="0">Добро пожаловать в мой GitHub! 👋<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.2000;0.2700;0.3700;0.3900;1" dur="15s" repeatCount="indefinite"/></text>
-      <rect class="cursor" x="0" y="42" width="3" height="28" opacity="0">
+      <text x="40" y="68" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="24" font-weight="500" fill="#EBD2CD" clip-path="url(#clip_1)" opacity="0">
+        Добро пожаловать в мой GitHub
+        <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.2000;0.2700;0.3700;0.3900;1" dur="15s" repeatCount="indefinite"/>
+      </text>
+      <rect class="cursor" x="0" y="44" width="3" height="28" opacity="0">
         <animate attributeName="x" values="40;40;515.2;515.2;40;40" keyTimes="0;0.2000;0.2700;0.3700;0.3900;1" dur="15s" repeatCount="indefinite"/>
         <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.2000;0.2700;0.3700;0.3900;1" dur="15s" repeatCount="indefinite"/>
       </rect>
     </g>
+  </g>
 
+  <!-- Линия 2: Hope you're having a great day -->
+  <g class="root">
     <defs>
-      <clipPath id="clip-2">
+      <clipPath id="clip_2">
         <rect x="40" y="32" height="40" width="0">
           <animate attributeName="width" values="0;0;489.6;489.6;0;0" keyTimes="0;0.4000;0.4700;0.5700;0.5900;1" dur="15s" repeatCount="indefinite"/>
         </rect>
       </clipPath>
     </defs>
     <g>
-      <text x="40" y="68" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="24" font-weight="500" fill="#f4f4f5" clip-path="url(#clip-2)" opacity="0">Hope you&apos;re having a great day! 😊<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.4000;0.4700;0.5700;0.5900;1" dur="15s" repeatCount="indefinite"/></text>
-      <rect class="cursor" x="0" y="42" width="3" height="28" opacity="0">
+      <text x="40" y="68" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="24" font-weight="500" fill="#EBD2CD" clip-path="url(#clip_2)" opacity="0">
+        Hope you're having a great day
+        <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.4000;0.4700;0.5700;0.5900;1" dur="15s" repeatCount="indefinite"/>
+      </text>
+      <rect class="cursor" x="0" y="44" width="3" height="28" opacity="0">
         <animate attributeName="x" values="40;40;529.6;529.6;40;40" keyTimes="0;0.4000;0.4700;0.5700;0.5900;1" dur="15s" repeatCount="indefinite"/>
         <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.4000;0.4700;0.5700;0.5900;1" dur="15s" repeatCount="indefinite"/>
       </rect>
     </g>
+  </g>
 
+  <!-- Линия 3: Надеюсь у вас хорошее настроение -->
+  <g class="root">
     <defs>
-      <clipPath id="clip-3">
+      <clipPath id="clip_3">
         <rect x="40" y="32" height="40" width="0">
           <animate attributeName="width" values="0;0;518.4;518.4;0;0" keyTimes="0;0.6000;0.6700;0.7700;0.7900;1" dur="15s" repeatCount="indefinite"/>
         </rect>
       </clipPath>
     </defs>
     <g>
-      <text x="40" y="68" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="24" font-weight="500" fill="#f4f4f5" clip-path="url(#clip-3)" opacity="0">Надеюсь, у вас хорошее настроение! ✨<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.6000;0.6700;0.7700;0.7900;1" dur="15s" repeatCount="indefinite"/></text>
-      <rect class="cursor" x="0" y="42" width="3" height="28" opacity="0">
+      <text x="40" y="68" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="24" font-weight="500" fill="#EBD2CD" clip-path="url(#clip_3)" opacity="0">
+        Надеюсь у вас хорошее настроение
+        <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.6000;0.6700;0.7700;0.7900;1" dur="15s" repeatCount="indefinite"/>
+      </text>
+      <rect class="cursor" x="0" y="44" width="3" height="28" opacity="0">
         <animate attributeName="x" values="40;40;558.4;558.4;40;40" keyTimes="0;0.6000;0.6700;0.7700;0.7900;1" dur="15s" repeatCount="indefinite"/>
         <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.6000;0.6700;0.7700;0.7900;1" dur="15s" repeatCount="indefinite"/>
       </rect>
     </g>
+  </g>
 
+  <!-- Линия 4: Check out my tech stack and projects below -->
+  <g class="root">
     <defs>
-      <clipPath id="clip-4">
+      <clipPath id="clip_4">
         <rect x="40" y="32" height="40" width="0">
           <animate attributeName="width" values="0;0;619.2;619.2;0;0" keyTimes="0;0.8000;0.8700;0.9700;0.9900;1" dur="15s" repeatCount="indefinite"/>
         </rect>
       </clipPath>
     </defs>
     <g>
-      <text x="40" y="68" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="24" font-weight="500" fill="#f4f4f5" clip-path="url(#clip-4)" opacity="0">Check out my tech stack and projects below!<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.8000;0.8700;0.9700;0.9900;1" dur="15s" repeatCount="indefinite"/></text>
-      <rect class="cursor" x="0" y="42" width="3" height="28" opacity="0">
+      <text x="40" y="68" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="24" font-weight="500" fill="#EBD2CD" clip-path="url(#clip_4)" opacity="0">
+        Check out my tech stack and projects below
+        <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.8000;0.8700;0.9700;0.9900;1" dur="15s" repeatCount="indefinite"/>
+      </text>
+      <rect class="cursor" x="0" y="44" width="3" height="28" opacity="0">
         <animate attributeName="x" values="40;40;659.2;659.2;40;40" keyTimes="0;0.8000;0.8700;0.9700;0.9900;1" dur="15s" repeatCount="indefinite"/>
         <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.8000;0.8700;0.9700;0.9900;1" dur="15s" repeatCount="indefinite"/>
       </rect>
